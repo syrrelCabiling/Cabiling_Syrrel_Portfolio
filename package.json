@@ -1,0 +1,22 @@
+{
+  "name": "Cabiling_Syrrel_Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
+    "hbs": "^4.0.6",
+    "mysql": "^2.17.1"
+  }
+}
