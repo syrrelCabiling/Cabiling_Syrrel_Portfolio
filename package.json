@@ -1,10 +1,14 @@
 {
-  "name": "Cabiling_Syrrel_Portfolio",
+  "name": "cabiling_syrrel_portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syrrelCabiling/Cabiling_Syrrel_Portfolio.git"
   },
   "keywords": [],
   "author": "",
