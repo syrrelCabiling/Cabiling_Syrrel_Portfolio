@@ -15,9 +15,26 @@
 </head>
 
 <body>
-    <div class="container-fluid logo col-sm col-md-6 col-lg-6 mt-3 mx-auto d-block text-center">
-        <div class="row">
-            <h1>Fave Movies</h1>
+    <div class="container-fluid">
+        <div class="row"> 
+            <nav>
+                <div class="logo">
+                    <img src="images/logo/LOGO2.svg" alt="My Logo">
+                </div>
+            
+                <h1 class="hide">Navigation</h1>
+                <ul>
+                    <li>
+                        <a href="/">WORK</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
     <main>
@@ -25,21 +42,7 @@
     </main>
 
 
-    <script type="module" src="js/main.js"></script>
-
-    <!-- templates -> these don't get rendered immediately -->
-    <template id="user-template">
-        <!-- you can put all kinds of markup here - semantic tagging, etc -->
-        <div class="user-panel">
-            <div class="user-panel-header">
-                <img class="poster"></img>
-                <h1 class="u-name"></h1>
-            </div>
-
-            <button class="user-button">More movie Info</button>
-        </div>
-    </template>
-    <!-- end templates-->
+<script type="module" src="js/main.js"></script>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

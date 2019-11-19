@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     // should really get the user data here and then fetch it thru, but let's try this asynchronously
     console.log('at the main route');
 
-    let query = "SELECT * FROM tbl_splash"; // make several of this for each section on the page
+    let query = "SELECT * FROM tbl_work"; // make several of this for each section on the page
 
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
@@ -25,7 +25,7 @@ router.get('/users/:id', (req,res) => {
     console.log('hit a dynamic route!');
     console.log(req.params.id);
 
-        let query = `SELECT * FROM tbl_movies WHERE ID="${req.params.id}"`; // params will give you either 1, 2, or 3
+        let query = `SELECT * FROM tbl_work WHERE ID="${req.params.id}"`; // params will give you either 1, 2, or 3
     
        sql.query(query, (err, result) => {
           if (err) { throw err; console.log(err); }
