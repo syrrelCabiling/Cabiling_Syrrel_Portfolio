@@ -1,0 +1,49 @@
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: transparent;
+    font-size: .8rem;
+    font-family: 'Manrope-Bold', sans-serif;
+
+}
+
+
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.navlinks li {
+    list-style: none;
+    margin-top: 10px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 3px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.burger-menu .line2{
+    width: 18px;
+}
+
+.burger-menu .line3{
+    width: 20px;
+}

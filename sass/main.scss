@@ -1,11 +1,48 @@
+@import 'modules/_nav';
+@import 'modules/_mediaqueries';
+
+
 * {
-    margin: 0 auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: pink;
+@font-face {
+    font-family: 'Manrope', sans-serif;
+    src: url('fonts/manrope-ttf/web/manrope-regular.woff') format(woff),
+         url('fonts/manrope-ttf/web/manrope-bold.woff') format(woff);
+}
+
+@font-face {
+    font-family: 'Made Saonara', serif;
+    src: url('fonts/made-saonara/MADE SAONARA PERSONAL USE.otf') format(otf);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+h1{
+    font-family: 'Made Saonara', sans-serif;
+}
+
+.main-logo {
+    width: 45%;
+    margin: 10px 0 10px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.splash{
+    height: 92vh;
+    background: url('/images/background.png');
 }
