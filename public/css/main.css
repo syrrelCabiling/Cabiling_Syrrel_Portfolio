@@ -5,7 +5,9 @@ nav {
   min-height: 8vh;
   background-color: transparent;
   font-size: .8rem;
-  font-family: 'Manrope-Bold', sans-serif; }
+  font-family: 'Manrope-Bold', sans-serif;
+  position: absolute;
+  z-index: 1; }
 
 .navlinks {
   display: flex;
@@ -100,15 +102,17 @@ nav {
 @font-face {
   font-family: 'Made Saonara', serif;
   src: url("fonts/made-saonara/MADE SAONARA PERSONAL USE.otf") format(otf); }
-body {
-  font-family: 'Manrope', sans-serif; }
+html, body {
+  font-family: 'Manrope', sans-serif;
+  height: 100%; }
 
 h1 {
   font-family: 'Made Saonara', sans-serif; }
 
 .main-logo {
   width: 45%;
-  margin: 10px 0 10px 0; }
+  margin: 10px 0 10px 0;
+  left: 10px; }
 
 a {
   color: black;
@@ -119,7 +123,34 @@ a:hover {
   text-decoration: none; }
 
 .splash {
-  height: 92vh;
-  background: url("/images/background.png"); }
+  height: 100vh;
+  background: url("/images/background.png");
+  background-size: cover;
+  background-position: right 0% bottom 45%;
+  top: -80px;
+  position: relative;
+  padding: 25px; }
+
+.splash-art img {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  justify-content: center;
+  margin-top: 100px;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+.splash h1 {
+  margin-top: 20px;
+  font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
