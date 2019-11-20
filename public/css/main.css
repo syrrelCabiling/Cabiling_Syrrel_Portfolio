@@ -63,7 +63,8 @@ nav {
 
   .burger-menu {
     display: block;
-    cursor: pointer; } }
+    cursor: pointer;
+    margin-right: 0px; } }
 .burger-expand {
   transform: translateX(0%); }
 
@@ -92,7 +93,7 @@ nav {
   .main-logo {
     width: 50%; } }
 * {
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   box-sizing: border-box; }
 
@@ -152,5 +153,15 @@ a:hover {
 .splash h1 {
   margin-top: 20px;
   font-size: 2rem; }
+
+.type-cursor {
+  color: #000;
+  font-size: 20px;
+  animation: blink .4s ease infinite;
+  opacity: 0; }
+
+@keyframes blink {
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=main.css.map */

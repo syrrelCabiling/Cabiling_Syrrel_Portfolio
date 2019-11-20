@@ -3,7 +3,7 @@
 
 
 * {
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -85,3 +85,13 @@ a:hover {
     font-size: 2rem;
 }
 
+.type-cursor { 
+    color:#000; 
+    font-size: 20px;
+    animation:blink .4s ease infinite;
+    opacity:0; 
+}
+
+@keyframes blink {
+    100% { opacity:1; }
+}
