@@ -45,6 +45,8 @@ a:hover {
     text-decoration: none;
 }
 
+//Splash 
+
 .splash{
     height: 100vh;
     background: url('/images/background.png');
@@ -55,10 +57,10 @@ a:hover {
     padding: 25px;
 }
 
-.splash-art img{
+.splash img{
     display: flex;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     justify-content: center;
     margin-top: 100px;
     animation-name: floating;
@@ -85,13 +87,17 @@ a:hover {
     font-size: 2rem;
 }
 
+//Blinking type cursor
+
 .type-cursor { 
     color:#000; 
     font-size: 20px;
-    animation:blink .4s ease infinite;
+    animation: blink .4s ease infinite;
     opacity:0; 
 }
 
 @keyframes blink {
-    100% { opacity:1; }
+    100% { 
+        opacity: 1; 
+    }
 }
