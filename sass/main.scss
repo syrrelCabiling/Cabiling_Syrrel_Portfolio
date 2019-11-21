@@ -1,5 +1,5 @@
 @import 'modules/_nav';
-@import 'modules/_mediaqueries';
+
 
 
 * {
@@ -22,6 +22,7 @@
 html, body {
     font-family: 'Manrope', sans-serif;
     height: 100%;
+    width: 100vw;
 
 }
 
@@ -52,15 +53,15 @@ a:hover {
     background: url('/images/background.png');
     background-size: cover;
     background-position: right 0% bottom 45%;
-    top: -80px;
-    position: relative;
+    top: -60px;
+    position: absolute;
     padding: 25px;
 }
 
-.splash img{
+.splash-hand {
     display: flex;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     justify-content: center;
     margin-top: 100px;
     animation-name: floating;
@@ -101,3 +102,5 @@ a:hover {
         opacity: 1; 
     }
 }
+
+@import 'modules/_mediaqueries';

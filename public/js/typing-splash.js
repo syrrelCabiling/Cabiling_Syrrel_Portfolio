@@ -3,7 +3,7 @@
 var eachLetter = 0;
 var adding = 0;
 var passion = ['user experience','user interface','product design','graphic design'];
-var speed = 100;
+var speed = 200;
 
 setTimeout(typingTexts, speed);
 
