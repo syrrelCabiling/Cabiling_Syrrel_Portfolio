@@ -20,7 +20,7 @@ nav {
   margin-bottom: 10px; }
 
 .burger-menu {
-  display: none; }
+  display: block; }
 
 .burger-menu div {
   width: 25px;
@@ -50,13 +50,14 @@ nav {
 html, body {
   font-family: 'Manrope', sans-serif;
   height: 100%;
-  width: 100vw; }
+  width: 100vw;
+  overflow-x: hidden; }
 
 h1 {
   font-family: 'Made Saonara', sans-serif; }
 
 .main-logo {
-  width: 45%;
+  width: 50%;
   margin: 10px 0 10px 0;
   left: 10px; }
 
@@ -123,12 +124,12 @@ a:hover {
     margin-bottom: 20px;
     right: 0px;
     height: 100vh;
+    width: 55%;
     top: -10px;
     background-color: #8E391E;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
     transform: translateX(110%);
     transition: transform 0.5s ease-in; }
 
@@ -136,19 +137,11 @@ a:hover {
     opacity: 0;
     font-size: .7rem; }
 
-  .navlinks li {
-    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: #000;
-    text-decoration: none;
-    transition: background-size .2s; }
-    .navlinks li :root {
-      --mainColor: #ff9800; }
-
   .navlinks li:hover {
     background-size: 4px 50px; }
+
+  .navlinks2 {
+    display: none; }
 
   .burger-menu {
     display: block;
@@ -168,10 +161,11 @@ a:hover {
   h1 {
     font-size: 2rem !important; }
 
-  p {
-    font-size: .7rem; } }
+  .splash p {
+    font-size: .7rem;
+    line-height: 10px; } }
 .burger-expand {
-  transform: translateX(10%); }
+  transform: translateX(-10%); }
 
 @keyframes LinksFading {
   from {
@@ -193,11 +187,17 @@ a:hover {
   background-color: white; }
 
 @media (min-width: 375px) {
+  body {
+    overflow-x: hidden; }
+
   .splash {
     height: 120%; }
 
   .navlinks {
     transform: translateX(105%); }
+
+  .navlinks2 {
+    display: none; }
 
   .splash-hand {
     margin-top: 170px;
@@ -207,11 +207,12 @@ a:hover {
     font-size: 3rem; }
 
   .splash p {
-    font-size: 1rem; } }
+    font-size: .8rem;
+    line-height: 10px; } }
 .burger-expand {
   transform: translateX(5%); }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     overflow-x: hidden; }
 
@@ -222,13 +223,127 @@ a:hover {
     width: 40%; }
 
   .burger-menu {
-    margin-right: 10px; }
+    margin-right: 20px;
+    margin-top: -10px; }
+
+  .navlinks2 {
+    display: none; }
 
   .navlinks li {
     font-size: 1rem; }
 
+  .splash {
+    height: 120%; }
+
   .splash-hand {
     margin-top: 220px;
-    width: 50%; } }
+    width: 50%; }
+
+  .splash h1 {
+    margin-top: 100px;
+    font-size: 2rem !important;
+    margin-left: 30px;
+    margin-bottom: 10px; }
+
+  .splash p {
+    font-size: 1rem;
+    line-height: 10px;
+    margin-left: 30px; } }
+@media (min-width: 1200px) {
+  body {
+    overflow-x: hidden; }
+
+  nav {
+    padding: 0px; }
+
+  .main-logo {
+    width: 20%; }
+
+  .burger-menu {
+    display: flex; }
+
+  .navlinks {
+    display: none; }
+
+  .navlinks li {
+    display: inline-flex !important;
+    justify-content: space-around; }
+
+  .navlinks2 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    z-index: 2;
+    font-size: 1rem; }
+
+  .navlinks2 li {
+    display: inline-flex;
+    margin: 30px; }
+
+  .splash {
+    display: flex; }
+
+  .splash-hand {
+    width: 30%;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 130px;
+    margin-top: 160px; }
+
+  .type-cursor {
+    font-size: 1.5rem; }
+
+  .splash {
+    height: 120%; }
+
+  .splash h1 {
+    margin-top: 400px;
+    font-size: 4rem !important;
+    margin-left: 30px;
+    margin-bottom: 10px; }
+
+  .splash p {
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-left: 30px; }
+
+  .burger-expand {
+    display: none; } }
+@media (min-width: 1920px) {
+  body {
+    overflow-x: hidden; }
+
+  nav {
+    padding: 0px;
+    padding-right: 30px; }
+
+  .main-logo {
+    width: 15%;
+    margin-right: 30px; }
+
+  .burger-menu {
+    display: flex; }
+
+  .navlinks {
+    display: none; }
+
+  .navlinks li {
+    display: inline-flex !important;
+    justify-content: space-around; }
+
+  .navlinks2 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px; }
+
+  .navlinks2 li {
+    display: inline-flex;
+    margin: 30px; }
+
+  .splash {
+    height: 120%; }
+
+  .splash h1 p {
+    margin-top: 300px; } }
 
 /*# sourceMappingURL=main.css.map */
