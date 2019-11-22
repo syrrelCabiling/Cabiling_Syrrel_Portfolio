@@ -3,9 +3,7 @@
     body {
         overflow-x: hidden;    
     }
-    nav{
-        margin: 10px;
-    }
+
     .main-logo{
         width: 50%;
     }
@@ -171,6 +169,7 @@
     }
     .main-logo{
         width: 20%;
+        margin-left: 30px;
  
     }
     .burger-menu {
@@ -239,7 +238,7 @@
     }
     .main-logo{
         width: 15%;
-        margin-right: 30px;
+        margin-left: 30px;
     }
     .burger-menu {
         display: flex;

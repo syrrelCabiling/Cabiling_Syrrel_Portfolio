@@ -5,7 +5,6 @@
 * {
     margin: 0 auto;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -26,6 +25,15 @@ html, body {
     overflow-x: hidden;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    position: absolute;
+    
+}
+
 h1{
     font-family: 'Made Saonara', sans-serif;
 }
@@ -37,13 +45,15 @@ h1{
 }
 
 a {
-    color: black;
+    color: #000;
+    font-size: 1em;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    background: linear-gradient(180deg,  rgba(233,149,117,0) 50%, #DF9575 60%);
     text-decoration: none;
+    color: black;
 }
 
 //Splash 
@@ -53,9 +63,10 @@ a:hover {
     background: url('/images/background.png');
     background-size: cover;
     background-position: right 0% bottom 45%;
-    top: -60px;
-    position: absolute;
+    top: -110px;
+    position: relative;
     padding: 25px;
+
 }
 
 .splash-hand {
@@ -102,5 +113,13 @@ a:hover {
         opacity: 1; 
     }
 }
+
+#work {
+    min-height: 80vh;
+    box-sizing: border-box;
+    top: 30px;
+ 
+}
+    
 
 @import 'modules/_mediaqueries';

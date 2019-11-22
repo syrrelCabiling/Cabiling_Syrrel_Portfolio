@@ -38,8 +38,7 @@ nav {
 
 * {
   margin: 0 auto;
-  padding: 0px;
-  box-sizing: border-box; }
+  padding: 0px; }
 
 @font-face {
   font-family: 'Manrope', sans-serif;
@@ -53,6 +52,13 @@ html, body {
   width: 100vw;
   overflow-x: hidden; }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  position: absolute; }
+
 h1 {
   font-family: 'Made Saonara', sans-serif; }
 
@@ -62,20 +68,22 @@ h1 {
   left: 10px; }
 
 a {
-  color: black;
+  color: #000;
+  font-size: 1em;
   text-decoration: none; }
 
 a:hover {
-  color: white;
-  text-decoration: none; }
+  background: linear-gradient(180deg, rgba(233, 149, 117, 0) 50%, #DF9575 60%);
+  text-decoration: none;
+  color: black; }
 
 .splash {
   height: 100vh;
   background: url("/images/background.png");
   background-size: cover;
   background-position: right 0% bottom 45%;
-  top: -60px;
-  position: absolute;
+  top: -110px;
+  position: relative;
   padding: 25px; }
 
 .splash-hand {
@@ -109,12 +117,14 @@ a:hover {
 @keyframes blink {
   100% {
     opacity: 1; } }
+#work {
+  min-height: 80vh;
+  box-sizing: border-box;
+  top: 30px; }
+
 @media (min-width: 320px) {
   body {
     overflow-x: hidden; }
-
-  nav {
-    margin: 10px; }
 
   .main-logo {
     width: 50%; }
@@ -257,7 +267,8 @@ a:hover {
     padding: 0px; }
 
   .main-logo {
-    width: 20%; }
+    width: 20%;
+    margin-left: 30px; }
 
   .burger-menu {
     display: flex; }
@@ -319,7 +330,7 @@ a:hover {
 
   .main-logo {
     width: 15%;
-    margin-right: 30px; }
+    margin-left: 30px; }
 
   .burger-menu {
     display: flex; }
