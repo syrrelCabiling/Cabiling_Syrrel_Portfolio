@@ -10,8 +10,8 @@ const myPortfolio = (() => {
                 targetImg = lightbox.querySelector('img');
 
                 let work = `
-                    <h2>${piece.ProjTitle}</h2>
-                    <p>${piece.Image}</p>
+                    <h2>${piece.Title}</h2>
+                    <img src="${piece.DispImg}">
                    <p>${piece.Desc1}</p>
                    <p>${piece.Desc2}</p>
                 `;
