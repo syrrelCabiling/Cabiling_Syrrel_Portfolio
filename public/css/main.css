@@ -118,9 +118,28 @@ a:hover {
   100% {
     opacity: 1; } }
 #work {
-  min-height: 80vh;
+  min-height: 100vh;
   box-sizing: border-box;
-  top: 30px; }
+  top: 30px;
+  color: #fff; }
+
+#work div {
+  margin-bottom: 10px;
+  display: inline-flex;
+  justify-content: space-around;
+  height: 350px;
+  width: 550px;
+  align-items: center; }
+
+#p1 {
+  background: #05322F;
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+button {
+  background-color: transparent;
+  border: none; }
 
 @media (min-width: 320px) {
   body {

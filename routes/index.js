@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     // should really get the user data here and then fetch it thru, but let's try this asynchronously
     console.log('at the main route');
 
-    let query = "SELECT * FROM tbl_work"; // make several of this for each section on the page
+    let query = "SELECT ID, ProjTitle, Image, SuppImage, Desc1, Desc2, Link FROM tbl_work"; // make several of this for each section on the page
 
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
         console.log(result); // should see objects wrapped in an array
 
         // render the home view with dynamic data
-        res.render('home', { movies: result }); //data is a generic key
+        res.render('home', { piece: result }); //data is a generic key
     
     })
 })

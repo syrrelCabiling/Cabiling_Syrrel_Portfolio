@@ -1,40 +1,32 @@
 // this is a partially revealing module pattern - just a variation on what we've already done
 
-const myVM = (() => {
+const myPortfolio = (() => {
     // get the user buttons and fire off an async DB query with Fetch
-    let movieButtons = document.querySelectorAll('.u-link'),
+    let eachPiece = document.querySelectorAll('.projLink'),
         lightbox = document.querySelector('.lightbox');
 
-        function renderCastsList(casts) {
-            return `<ul class="casts">
-                       ${casts.map(item => `<li>${item}</li>`).join('')}
-                   </ul>`
-      }
-
-        function movieInfo(movies) { // person is the databaase result
+        function portRes(piece) { // person is the databaase result
             let targetDiv = document.querySelector('.lb-content'),
                 targetImg = lightbox.querySelector('img');
 
-                let movieCont = `
-                    <h2>${movies.Title}</h2>
-                   <h5>Synopsis</h5> <p>${movies.Synopsis}</p>
-                   <p>${movies.Specs}</p>
-                   <h5>Casts</h5> <p>${movies.Casts}</p>
-                   <h5>Rotten Tomato Rating</h5> <p>${movies.Rating}</p>
-                    <p>${movies.Trailer}</p>
+                let work = `
+                    <h2>${piece.ProjTitle}</h2>
+                    <p>${piece.Image}</p>
+                   <p>${piece.Desc1}</p>
+                   <p>${piece.Desc2}</p>
                 `;
 
-            console.log(movieCont);
+            console.log(work);
 
-            targetDiv.innerHTML = movieCont;
-            targetImg.src = movies.imgsrc;
+            targetDiv.innerHTML = work;
+            targetImg.src = piece.imgsrc;
 
             lightbox.classList.add('show-lb');
 
 
         }
 
-        function getMovieData(event) {
+        function getEachPiece(event) {
             event.preventDefault(); //kill default tag in behaviour (dont navigate anywhere)
            // debugger;
             let imgSrc = this.previousElementSibling.getAttribute('src');
@@ -48,13 +40,13 @@ const myVM = (() => {
 
                     data[0].imgsrc = imgSrc;
 
-                    movieInfo(data[0]);
+                    portRes(data[0]);
                 })
                 .catch((err) => {
                     console.log(err)
                 })}
 
-        movieButtons.forEach(button => button.addEventListener('click', getMovieData));
+        eachPiece.forEach(button => button.addEventListener('click', getEachPiece));
 
         lightbox.querySelector('.close').addEventListener('click', function() {
             lightbox.classList.remove('show-lb');
