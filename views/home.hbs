@@ -21,13 +21,14 @@
 
 <!-- Portfolio Gallery -->
 <section id="work" class="container panel work">
-     {{#each piece}}
-    <div class="row">
+    {{#each piece}}
+    <div class="row"></div>
          <div class="p1 user-panel col-lg-8">
             <div id="p1">
-                <button class="projLink" href="{{ ID }}">
-                    <h4>{{ ProjTitle }}</h4>
-                </button>
+                <img src="{{ DispImg }}" width="350">
+                <a class="projLink" href="{{ ID }}">
+                    <h4>{{ ProjName }}</h4>
+                </a>
             </div>
         </div>
     </div>
