@@ -1,0 +1,44 @@
+#work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#work div{
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 550px;
+    align-items: center;
+}
+
+#work a {
+    background: none;
+}
+
+
+#p1 {
+    background: #05322F;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.user-panel {
+    flex: 0 1 100px;
+    text-align: center;
+    padding: 8px;
+}
+
+.projLink { 
+    display: block; 
+    width: 150px;  
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+}

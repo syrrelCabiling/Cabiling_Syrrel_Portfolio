@@ -1,5 +1,6 @@
 @import 'modules/_nav';
-
+@import 'modules/_gallery';
+@import 'modules/_lightbox';
 
 
 * {
@@ -44,13 +45,17 @@ h1{
     left: 10px;
 }
 
-a {
+.links {
     color: #000;
     font-size: 1em;
     text-decoration: none;
 }
 
-a:hover {
+nav a {
+    color: black;
+}
+
+nav a:hover {
     background: linear-gradient(180deg,  rgba(233,149,117,0) 50%, #DF9575 60%);
     text-decoration: none;
     color: black;
@@ -114,32 +119,6 @@ a:hover {
     }
 }
 
-#work {
-    min-height: 100vh;
-    box-sizing: border-box;
-    top: 30px;
-    color: #fff;
-}
-
-#work div{
-    margin-bottom: 10px;
-    display: inline-flex;
-    justify-content: space-around;
-    height: 350px;
-    width: 550px;
-    align-items: center;
-
-
-}
-
-
-#p1 {
-    background: #05322F;
-    display: inline-flex;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
 button{
     background-color: transparent;
     border: none;

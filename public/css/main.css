@@ -36,6 +36,111 @@ nav {
 .burger-menu .line3 {
   width: 20px; }
 
+#work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+#work div {
+  margin-bottom: 10px;
+  display: inline-flex;
+  justify-content: space-around;
+  height: 350px;
+  width: 550px;
+  align-items: center; }
+
+#work a {
+  background: none; }
+
+#p1 {
+  background: #05322F;
+  display: inline-flex;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.user-panel {
+  flex: 0 1 100px;
+  text-align: center;
+  padding: 8px; }
+
+.projLink {
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px; }
+
+.lightbox {
+  display: none;
+  background: #e2d2c0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+  overflow: visible; }
+
+.lightbox img {
+  max-width: 250px; }
+
+.lb-content {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  width: 75%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s; }
+
+.show-lb {
+  display: flex !important; }
+
+.close {
+  right: 24px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed;
+  padding: 2px 14px 5px;
+  color: lightgray;
+  font-size: 24px;
+  font-weight: bold; }
+
+.close:hover {
+  color: darkgray; }
+
+.projDesc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d2c0; }
+
+.projGallery {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
 * {
   margin: 0 auto;
   padding: 0px; }
@@ -67,12 +172,15 @@ h1 {
   margin: 10px 0 10px 0;
   left: 10px; }
 
-a {
+.links {
   color: #000;
   font-size: 1em;
   text-decoration: none; }
 
-a:hover {
+nav a {
+  color: black; }
+
+nav a:hover {
   background: linear-gradient(180deg, rgba(233, 149, 117, 0) 50%, #DF9575 60%);
   text-decoration: none;
   color: black; }
@@ -117,26 +225,6 @@ a:hover {
 @keyframes blink {
   100% {
     opacity: 1; } }
-#work {
-  min-height: 100vh;
-  box-sizing: border-box;
-  top: 30px;
-  color: #fff; }
-
-#work div {
-  margin-bottom: 10px;
-  display: inline-flex;
-  justify-content: space-around;
-  height: 350px;
-  width: 550px;
-  align-items: center; }
-
-#p1 {
-  background: #05322F;
-  display: inline-flex;
-  margin-left: 10px;
-  margin-right: 10px; }
-
 button {
   background-color: transparent;
   border: none; }
