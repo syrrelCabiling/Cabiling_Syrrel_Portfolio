@@ -6,9 +6,11 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    top: 0;
-    z-index: 5000;
+    top: 0px;
+    z-index: 5;
     overflow: visible;
+    border-radius: 5px; 
+    align-items: center;
 }
 
 
@@ -17,16 +19,24 @@
     max-width: 250px;
 }
 
+.projDesc {
+    width: 50%;
+}
+
 .lb-content {
-position: relative; 
-  background-color: white;
-  padding: 20px; 
-  margin: auto; 
-  width: 75%;  
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s
+    position: relative; 
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px; 
+    margin: auto; 
+    width: 50%;
+    height: 100vh; 
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
 }
 .show-lb { 
     display: flex !important; 
@@ -39,7 +49,7 @@ position: relative;
     font-size: 16px;
     position: fixed;
     padding: 2px 14px 5px;
-  color: lightgray; 
+  color: black; 
   font-size: 24px;  
   font-weight: bold;
     

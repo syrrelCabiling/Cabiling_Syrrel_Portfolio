@@ -5,13 +5,12 @@ const myPortfolio = (() => {
     let eachPiece = document.querySelectorAll('.projLink'),
         lightbox = document.querySelector('.lightbox');
 
-        function portRes(piece) { // person is the databaase result
+        function portRes(piece) { // person is the databaase result  <img src="${piece.DispImg}">
             let targetDiv = document.querySelector('.lb-content'),
                 targetImg = lightbox.querySelector('img');
 
                 let work = `
                     <h2>${piece.Title}</h2>
-                    <img src="${piece.DispImg}">
                    <p>${piece.Desc1}</p>
                    <p>${piece.Desc2}</p>
                 `;

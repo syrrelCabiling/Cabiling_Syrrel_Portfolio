@@ -53,11 +53,45 @@ nav {
 #work a {
   background: none; }
 
+.workDiv {
+  position: relative;
+  text-align: center;
+  justify-content: center; }
+
+.p1 img {
+  width: 100%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
 #p1 {
   background: #05322F;
   display: inline-flex;
-  margin-left: 10px;
-  margin-right: 10px; }
+  margin: 10px;
+  width: 100%; }
+
+.p1 button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+#p1:hover img {
+  opacity: 0.3; }
+
+#p1:hover .BtnDiv {
+  opacity: 1; }
 
 .user-panel {
   flex: 0 1 100px;
@@ -66,7 +100,7 @@ nav {
 
 .projLink {
   display: block;
-  width: 150px;
+  width: 100%;
   text-decoration: none;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.8);
@@ -78,19 +112,28 @@ nav {
   height: 100%;
   width: 100%;
   position: fixed;
-  top: 0;
-  z-index: 5000;
-  overflow: visible; }
+  top: 0px;
+  z-index: 5;
+  overflow: visible;
+  border-radius: 5px;
+  align-items: center; }
 
 .lightbox img {
   max-width: 250px; }
 
+.projDesc {
+  width: 50%; }
+
 .lb-content {
   position: relative;
+  float: left;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   padding: 20px;
   margin: auto;
-  width: 75%;
+  width: 50%;
+  height: 100vh;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -106,7 +149,7 @@ nav {
   font-size: 16px;
   position: fixed;
   padding: 2px 14px 5px;
-  color: lightgray;
+  color: black;
   font-size: 24px;
   font-weight: bold; }
 
@@ -189,8 +232,7 @@ nav a:hover {
   height: 100vh;
   background: url("/images/background.png");
   background-size: cover;
-  background-position: right 0% bottom 45%;
-  top: -110px;
+  background-position: top 0% right 0% bottom 45%;
   position: relative;
   padding: 25px; }
 
@@ -268,8 +310,14 @@ button {
   .burger-menu div {
     height: 3px; }
 
+  .jumbotron-fluid {
+    height: 100vh;
+    margin-bottom: 30px; }
+
   .splash {
-    height: 120%; }
+    background-position: right 0% bottom 45%;
+    background-size: cover;
+    top: -110px; }
 
   .splash-hand {
     margin-top: 130px;
@@ -280,7 +328,10 @@ button {
 
   .splash p {
     font-size: .7rem;
-    line-height: 10px; } }
+    line-height: 10px; }
+
+  .wHeader {
+    width: 50%; } }
 .burger-expand {
   transform: translateX(-10%); }
 
@@ -308,7 +359,8 @@ button {
     overflow-x: hidden; }
 
   .splash {
-    height: 120%; }
+    height: 120%;
+    top: -130px; }
 
   .navlinks {
     transform: translateX(105%); }
@@ -317,15 +369,19 @@ button {
     display: none; }
 
   .splash-hand {
+    width: 80%;
     margin-top: 170px;
-    margin-bottom: 35px; }
+    margin-bottom: 20px; }
 
   .splash h1 {
     font-size: 3rem; }
 
   .splash p {
     font-size: .8rem;
-    line-height: 10px; } }
+    line-height: 10px; }
+
+  .lb-content {
+    overflow-y: scroll; } }
 .burger-expand {
   transform: translateX(5%); }
 
@@ -349,8 +405,15 @@ button {
   .navlinks li {
     font-size: 1rem; }
 
+  .jumbotron-fluid {
+    height: 100vh;
+    margin-bottom: 80px; }
+
   .splash {
-    height: 120%; }
+    height: 200%;
+    background-position: right 0% top 0%;
+    background-size: cover;
+    top: -160px; }
 
   .splash-hand {
     margin-top: 220px;
@@ -365,7 +428,20 @@ button {
   .splash p {
     font-size: 1rem;
     line-height: 10px;
-    margin-left: 30px; } }
+    margin-left: 30px; }
+
+  .workDiv {
+    margin-top: 20px; }
+
+  .workDiv img {
+    width: 20%;
+    margin-bottom: 30px; }
+
+  .p1 {
+    display: inline-flexbox; }
+
+  #p1 {
+    width: 450px; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }
@@ -399,7 +475,9 @@ button {
     margin: 30px; }
 
   .splash {
-    display: flex; }
+    display: flex;
+    height: 120%;
+    top: -160px; }
 
   .splash-hand {
     width: 30%;
@@ -410,9 +488,6 @@ button {
 
   .type-cursor {
     font-size: 1.5rem; }
-
-  .splash {
-    height: 120%; }
 
   .splash h1 {
     margin-top: 400px;
@@ -426,7 +501,11 @@ button {
     margin-left: 30px; }
 
   .burger-expand {
-    display: none; } }
+    display: none; }
+
+  .wHeader {
+    width: 20%;
+    margin-bottom: 30px; } }
 @media (min-width: 1920px) {
   body {
     overflow-x: hidden; }

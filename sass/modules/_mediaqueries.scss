@@ -39,8 +39,15 @@
     .burger-menu div{
         height: 3px;
     }
+    .jumbotron-fluid {
+        height: 100vh;
+        margin-bottom: 30px;
+    }
     .splash{
-        height: 120%;
+        background-position: right 0% bottom 45%;
+        background-size: cover;
+        top: -110px;
+
     }
     .splash-hand {
         margin-top: 130px;
@@ -52,6 +59,9 @@
     .splash p{
         font-size: .7rem;
         line-height: 10px;
+    }
+    .wHeader {
+        width: 50%;
     }
 }
 
@@ -91,7 +101,7 @@
     }
     .splash{
         height: 120%;
-
+        top: -130px;
     }
     .navlinks{
         transform: translateX(105%);
@@ -100,8 +110,9 @@
         display: none;
     }
     .splash-hand{
+        width: 80%;
         margin-top: 170px;
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
     .splash h1{
         font-size: 3rem;
@@ -109,6 +120,9 @@
     .splash p{
         font-size: .8rem;
         line-height: 10px;
+    }
+    .lb-content{
+        overflow-y: scroll;
     }
   
 }
@@ -140,8 +154,15 @@
     .navlinks li {
         font-size: 1rem;
     }
+    .jumbotron-fluid {
+        height: 100vh;
+        margin-bottom: 80px;
+    }
     .splash {
-        height: 120%;
+        height: 200%;
+        background-position: right 0% top 0%;
+        background-size: cover;
+        top: -160px;
     }
     .splash-hand{
         margin-top: 220px;
@@ -157,6 +178,20 @@
         font-size: 1rem;
         line-height: 10px;
         margin-left: 30px;
+    }
+
+    .workDiv {
+        margin-top: 20px;
+    }
+    .workDiv img {
+        width: 20%;
+        margin-bottom: 30px;
+    }
+    .p1{
+        display: inline-flexbox;
+    }
+    #p1 {
+        width: 450px;
     }
 }
 
@@ -197,6 +232,8 @@
     }
     .splash{
         display: flex;
+        height: 120%;
+        top: -160px       
     }
     .splash-hand {
         width: 30%;
@@ -207,9 +244,6 @@
     }
     .type-cursor {
         font-size: 1.5rem;
-    }
-    .splash {
-        height: 120%;
     }
     .splash h1{
         margin-top: 400px;
@@ -224,6 +258,10 @@
     }
     .burger-expand {
         display: none;
+    }
+    .wHeader {
+        width: 20%;
+        margin-bottom: 30px;
     }
 }
 
@@ -263,6 +301,7 @@
     }
     .splash {
         height: 120%;
+
     }
     .splash h1 p{
         margin-top: 300px;

@@ -20,33 +20,43 @@
 
 
 <!-- Portfolio Gallery -->
-<section id="work" class="container panel work">
+<section id="work" class="container panel work" ></section>
+ <div class="workDiv clearfix col-lg-12 col-sm-12">
+        <hr><img src="images/Work-Header.png" class="wHeader" alt="Work Header"><hr>
+
+</div>
+
+<div class="row">
     {{#each piece}}
-    <div class="row">
-         <div class="p1 user-panel col-lg-8">
+         <div class="p1 user-panel col-xs-6 col-lg-6">
             <div id="p1">
-                <img src="{{ DispImg }}" width="350">
-                <button class="projLink" href="{{ ID }}">
+                <img src="{{DispImg}}" alt="Display Img">
+               
+                <button class="projLink BtnDiv" href="{{ ID }}">
                     <h4>{{ ProjName }}</h4>
                 </button>
+                
             </div>
         </div>
     </div>
     {{/each}}
     </div>
-
-    <!-- Popup -->
-    <div class="lightbox container col-sm-12 col-md-12 col-lg-12">
-        <div class="row">
-            <div class="sidebar">
-            <span class="close">Exit</span>
-            <div class="lb-content container-fluid col-sm-12 col-lg-12">
-                <h4>{{Title}}</h4>
-            </div>
-            </div>
-        </div>
     </div>
 </section>
+
+ <!-- Popup -->
+<div class="lightbox container col-sm-12 col-md-12 col-lg-12">
+    <div class="row">
+        <span class="close">x</span>
+        <div class="lb-content container-fluid">
+        </div>  
+            <div class="projDesc">
+                <img src="{{ OtherImg }}">
+                <p>hahshjchjwdjqwkjkw</p>
+                <button href="wave.hbs"></button>
+            </div>   
+    </div>
+</div>
 
 
 
