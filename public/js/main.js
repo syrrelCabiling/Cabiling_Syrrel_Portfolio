@@ -18,7 +18,7 @@ const myPortfolio = (() => {
             console.log(work);
 
             targetDiv.innerHTML = work;
-            targetImg.src = piece.imgsrc;
+            targetImg.src = piece.OtherImg;
 
             lightbox.classList.add('show-lb');
 
@@ -37,7 +37,7 @@ const myPortfolio = (() => {
                 .then(data => {
                     console.log("my database result is:", data)
 
-                    data[0].imgsrc = imgSrc;
+                    data[0].imgsrc = imgSrc; // Let above
 
                     portRes(data[0]);
                 })

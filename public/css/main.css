@@ -44,10 +44,9 @@ nav {
 
 #work div {
   margin-bottom: 10px;
-  display: inline-flex;
   justify-content: space-around;
-  height: 350px;
-  width: 550px;
+  height: 320px;
+  width: 500px;
   align-items: center; }
 
 #work a {
@@ -57,6 +56,12 @@ nav {
   position: relative;
   text-align: center;
   justify-content: center; }
+
+.p1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
 
 .p1 img {
   width: 100%;
@@ -69,9 +74,9 @@ nav {
 
 #p1 {
   background: #05322F;
-  display: inline-flex;
   margin: 10px;
-  width: 100%; }
+  flex: 0 0 100%;
+  float: left; }
 
 .p1 button {
   background-color: #4CAF50;
@@ -96,7 +101,9 @@ nav {
 .user-panel {
   flex: 0 1 100px;
   text-align: center;
-  padding: 8px; }
+  padding: 8px;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .projLink {
   display: block;
@@ -270,6 +277,12 @@ nav a:hover {
 button {
   background-color: transparent;
   border: none; }
+
+hr {
+  border-top: 5px solid red;
+  width: 100%;
+  margin-bottom: -40px;
+  z-index: -10; }
 
 @media (min-width: 320px) {
   body {

@@ -68,7 +68,6 @@ nav a:hover {
     background: url('/images/background.png');
     background-size: cover;
     background-position: top 0% right 0% bottom 45%;
-
     position: relative;
     padding: 25px;
 
@@ -122,6 +121,13 @@ nav a:hover {
 button{
     background-color: transparent;
     border: none;
+}
+
+hr {
+    border-top: 5px solid red;
+    width: 100%;
+    margin-bottom: -40px;
+    z-index: -10;
 }
 
 @import 'modules/_mediaqueries';
