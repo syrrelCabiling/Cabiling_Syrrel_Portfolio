@@ -123,11 +123,12 @@ button{
     border: none;
 }
 
-hr {
-    border-top: 5px solid red;
-    width: 100%;
-    margin-bottom: -40px;
-    z-index: -10;
-}
+.divider {
+    display: inline-block;
+    border-bottom: #ECE0C7 3px solid;
+    width: 25%;
+    margin: 30px;
+  }
+
 
 @import 'modules/_mediaqueries';

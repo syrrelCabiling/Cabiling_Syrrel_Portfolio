@@ -52,6 +52,15 @@ nav {
 #work a {
   background: none; }
 
+.wHeader {
+  opacity: 1; }
+
+.divider {
+  display: inline-block;
+  border-bottom: #ECE0C7 3px solid;
+  width: 25%;
+  margin: 30px; }
+
 .workDiv {
   position: relative;
   text-align: center;
@@ -278,11 +287,11 @@ button {
   background-color: transparent;
   border: none; }
 
-hr {
-  border-top: 5px solid red;
-  width: 100%;
-  margin-bottom: -40px;
-  z-index: -10; }
+.divider {
+  display: inline-block;
+  border-bottom: #ECE0C7 3px solid;
+  width: 25%;
+  margin: 30px; }
 
 @media (min-width: 320px) {
   body {
