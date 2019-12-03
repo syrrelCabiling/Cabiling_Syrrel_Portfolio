@@ -1,0 +1,29 @@
+footer {
+    background-color: #8E391E;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.f-links {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.f-links li {
+    list-style: none;
+    margin-top: 10px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.f-nav img {
+    width: 50%;
+}
+
+.copyright {
+    background-color: #792F18;
+    height: 5vh;
+    width: 100vw;
+    bottom: 0;
+}
