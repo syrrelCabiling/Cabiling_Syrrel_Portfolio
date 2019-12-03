@@ -1,7 +1,7 @@
 @import 'modules/_nav';
 @import 'modules/_gallery';
 @import 'modules/_lightbox';
-
+@import 'modules/_about';
 
 * {
     margin: 0 auto;
@@ -123,12 +123,22 @@ button{
     border: none;
 }
 
-.divider {
-    display: inline-block;
-    border-bottom: #ECE0C7 3px solid;
-    width: 25%;
-    margin: 30px;
-  }
+.btn {
+    background: #8E3A1E;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    outline: #8E3A1E;
+}
+
+.btn:focus {
+    background: #8E3A1E;
+    color: #fff;
+}
+.btn:active {
+    background: #D98C43;
+}
 
 
 @import 'modules/_mediaqueries';

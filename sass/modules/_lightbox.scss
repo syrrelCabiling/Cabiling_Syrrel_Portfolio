@@ -20,19 +20,27 @@
 }
 
 .projDesc {
-    width: 50%;
+    width: 100vw;
+    height: 50vh; 
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d2c0;
 }
 
 .lb-content {
     position: relative; 
-    float: left;
     justify-content: center;
     align-items: center;
     background-color: white;
     padding: 20px; 
     margin: auto; 
-    width: 50%;
-    height: 100vh; 
+    width: 100vw;
+    height: 50vh; 
+    bottom: 0%;
+    overflow-y: scroll;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -52,6 +60,7 @@
   color: black; 
   font-size: 24px;  
   font-weight: bold;
+  z-index: 5;
     
 }
 
@@ -59,17 +68,9 @@
     color: darkgray;
   }
 
-.projDesc {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #e2d2c0;
-}
 
 .projGallery {
-    width: 50%;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;

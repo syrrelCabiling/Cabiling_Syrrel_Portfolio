@@ -5,7 +5,7 @@ const myPortfolio = (() => {
     let eachPiece = document.querySelectorAll('.projLink'),
         lightbox = document.querySelector('.lightbox');
 
-        function portRes(piece) { // person is the databaase result  <img src="${piece.DispImg}">
+        function portRes(piece) { // portRes is the databaase result 
             let targetDiv = document.querySelector('.lb-content'),
                 targetImg = lightbox.querySelector('img');
 
@@ -18,7 +18,12 @@ const myPortfolio = (() => {
             console.log(work);
 
             targetDiv.innerHTML = work;
-            targetImg.src = piece.OtherImg;
+            targetImg.src = piece.Preview1,
+                            piece.Preview2;
+                            // piece.Preview3,
+                            // piece.Thumbnail1,
+                            // piece.Thumbnail2,
+                            // piece.Thumbnail3;
 
             lightbox.classList.add('show-lb');
 

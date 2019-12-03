@@ -9,7 +9,7 @@
                     <img src="images/splash-img.png" class="splash-hand float-lg-right" alt="Splash Art">
                 </div>
                 <h1>Hi, I'm Syrrel</h1>
-                    <p class="display-5"><strong>I am passionate about</strong>
+                    <p class="display-5"><strong>I like</strong>
                         <span id="demo"></span>
                         <span class='type-cursor'>|</span>
                     </p>
@@ -25,14 +25,14 @@
         <div class="divider"></div><img src="images/Work-Header.png" class="wHeader" alt="Work Header"><div class="divider"></div>
 </div>
 
-<div class="row">
+<div class="row mosaic">
     {{#each piece}}
-         <div class="p1 user-panel col-xs-6 col-lg-3">
+         <div class="p1 user-panel col-xs-12 col-sm-12 col-lg-3">
             <div id="p1">
                 <img src="{{DispImg}}" alt="Display Img">
                
                 <button class="projLink BtnDiv" href="{{ ID }}">
-                    <h4>{{ ProjName }}</h4>
+                    <p>{{ Text }}</p>
                 </button>
                 
             </div>
@@ -51,10 +51,13 @@
         <div class="lb-content container-fluid">
         </div>  
             <div class="projDesc">
-                <img src="{{ OtherImg }}" alt="Slideshow">
-                <p>hahshjchjwdjqwkjkw</p>
-                <button href="wave.hbs">Button</button>
+                <div class="piece-gallery">
+                    <img src="{{ Preview1 }}" alt="Preview">
+                    <img src="{{ Thumbnail1 }}" alt="Thumbnail">
 
+                </div>
+                <img src="{{ OtherImg }}" alt="Slideshow">
+                <button href="wave.hbs" class="btn btn-outline-danger">Read More</button>
             </div>   
     </div>
 </div>

@@ -33,6 +33,7 @@
     position: relative;
     text-align: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
  .p1 {
     display: flex;
@@ -45,24 +46,19 @@
     width: 100%;
     opacity: 1;
     display: block;
-    width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
 }
 
 #p1 {
-    background: #05322F;
-    margin: 10px;
-    flex: 0 0 100%;
     float: left;
 }
 
 
 .p1 button {
-    background-color: #4CAF50;
+    background-color: #05322F;
     color: white;
-    font-size: 16px;
     padding: 16px 32px;
     transition: .5s ease;
     opacity: 0;
@@ -83,18 +79,23 @@
   }
 
 .user-panel {
-    flex: 0 1 100px;
+
     text-align: center;
     padding: 8px;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .projLink { 
+
+    border: 2px solid #fff;
+    outline: 5px solid #05322F;
+    background: #05322F;
     display: block; 
-    width: 100%;  
+    width: 60%;  
     text-decoration: none;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
+}
+
+.projLink h4{
+    font-size: 1rem;
 }

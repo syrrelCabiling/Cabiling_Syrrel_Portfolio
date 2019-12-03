@@ -1,0 +1,41 @@
+.aboutMe {
+    background: url(/images/About-Bg.png) no-repeat;
+   padding-top: 50px;
+   height: 100%;
+}
+hr {
+    background-color: #707070;
+}
+
+.abt-header {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.abt-txt {
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    font-size: .8rem;
+    line-height: 25px;
+}
+
+.abt-txt h1 {
+    margin-top: 30px;
+}
+
+.abt-img {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.demoreel {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

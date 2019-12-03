@@ -64,7 +64,8 @@ nav {
 .workDiv {
   position: relative;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 20px; }
 
 .p1 {
   display: flex;
@@ -76,21 +77,16 @@ nav {
   width: 100%;
   opacity: 1;
   display: block;
-  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden; }
 
 #p1 {
-  background: #05322F;
-  margin: 10px;
-  flex: 0 0 100%;
   float: left; }
 
 .p1 button {
-  background-color: #4CAF50;
+  background-color: #05322F;
   color: white;
-  font-size: 16px;
   padding: 16px 32px;
   transition: .5s ease;
   opacity: 0;
@@ -108,19 +104,21 @@ nav {
   opacity: 1; }
 
 .user-panel {
-  flex: 0 1 100px;
   text-align: center;
-  padding: 8px;
-  flex-direction: row;
-  flex-wrap: wrap; }
+  padding: 8px; }
 
 .projLink {
+  border: 2px solid #fff;
+  outline: 5px solid #05322F;
+  background: #05322F;
   display: block;
-  width: 100%;
+  width: 60%;
   text-decoration: none;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 5px; }
+
+.projLink h4 {
+  font-size: 1rem; }
 
 .lightbox {
   display: none;
@@ -138,18 +136,26 @@ nav {
   max-width: 250px; }
 
 .projDesc {
-  width: 50%; }
+  width: 100vw;
+  height: 50vh;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d2c0; }
 
 .lb-content {
   position: relative;
-  float: left;
   justify-content: center;
   align-items: center;
   background-color: white;
   padding: 20px;
   margin: auto;
-  width: 50%;
-  height: 100vh;
+  width: 100vw;
+  height: 50vh;
+  bottom: 0%;
+  overflow-y: scroll;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -167,21 +173,14 @@ nav {
   padding: 2px 14px 5px;
   color: black;
   font-size: 24px;
-  font-weight: bold; }
+  font-weight: bold;
+  z-index: 5; }
 
 .close:hover {
   color: darkgray; }
 
-.projDesc {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #e2d2c0; }
-
 .projGallery {
-  width: 50%;
+  width: 100vw;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
@@ -200,6 +199,42 @@ nav {
   to {
     top: 0;
     opacity: 1; } }
+.aboutMe {
+  background: url(/images/About-Bg.png) no-repeat;
+  padding-top: 50px;
+  height: 100%; }
+
+hr {
+  background-color: #707070; }
+
+.abt-header {
+  width: 70%;
+  margin-bottom: 30px; }
+
+.abt-txt {
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  font-size: .8rem;
+  line-height: 25px; }
+
+.abt-txt h1 {
+  margin-top: 30px; }
+
+.abt-img {
+  width: 40%;
+  float: left;
+  margin-right: 10px; }
+
+.demoreel {
+  margin-top: 50px;
+  margin-bottom: 60px; }
+
 * {
   margin: 0 auto;
   padding: 0px; }
@@ -287,11 +322,19 @@ button {
   background-color: transparent;
   border: none; }
 
-.divider {
-  display: inline-block;
-  border-bottom: #ECE0C7 3px solid;
-  width: 25%;
-  margin: 30px; }
+.btn {
+  background: #8E3A1E;
+  color: #fff; }
+
+.btn-outline-danger {
+  outline: #8E3A1E; }
+
+.btn:focus {
+  background: #8E3A1E;
+  color: #fff; }
+
+.btn:active {
+  background: #D98C43; }
 
 @media (min-width: 320px) {
   body {
@@ -352,8 +395,19 @@ button {
     font-size: .7rem;
     line-height: 10px; }
 
+  .workDiv {
+    width: 100vw; }
+
   .wHeader {
-    width: 50%; } }
+    width: 40%; }
+
+  .divider {
+    width: 20%;
+    margin: 5px; }
+
+  #p1 {
+    width: 100%;
+    background: #05322F; } }
 .burger-expand {
   transform: translateX(-10%); }
 
@@ -465,7 +519,83 @@ button {
     display: inline-flexbox; }
 
   #p1 {
-    width: 450px; } }
+    width: 450px; }
+
+  .close {
+    right: 24px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    padding: 2px 14px 5px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold; }
+
+  .close:hover {
+    color: darkgray; }
+
+  .projDesc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d2c0; }
+
+  .projGallery {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0; }
+    to {
+      top: 0;
+      opacity: 1; } }
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0; }
+    to {
+      top: 0;
+      opacity: 1; } }
+  .projDesc {
+    width: 50%; }
+
+  .lb-content {
+    position: relative;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s; }
+
+  .mosaic {
+    margin: 20px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+    justify-content: center; }
+
+  #p1 {
+    width: 300px;
+    padding: 20px;
+    display: flex; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }
@@ -534,12 +664,95 @@ button {
     margin-top: 200px; }
 
   .workDiv img {
-    width: 20%;
+    width: 30%;
     margin-bottom: 30px; }
 
   .wHeader {
     width: 20%;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .divider {
+    width: 30%; }
+
+  .close {
+    right: 24px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    padding: 2px 14px 5px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold; }
+
+  .close:hover {
+    color: darkgray; }
+
+  .projDesc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d2c0; }
+
+  .projGallery {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0; }
+    to {
+      top: 0;
+      opacity: 1; } }
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0; }
+    to {
+      top: 0;
+      opacity: 1; } }
+  .projDesc {
+    width: 50%; }
+
+  .lb-content {
+    position: relative;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s; }
+
+  .mosaic {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+
+  .p1 {
+    padding: 20px;
+    display: flex;
+    right: 40%; }
+
+  #p1 {
+    width: 400px; } }
 @media (min-width: 1920px) {
   body {
     overflow-x: hidden; }
@@ -575,6 +788,66 @@ button {
     height: 120%; }
 
   .splash h1 p {
-    margin-top: 300px; } }
+    margin-top: 300px; }
+
+  .close {
+    right: 24px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    padding: 2px 14px 5px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold; }
+
+  .close:hover {
+    color: darkgray; }
+
+  .projDesc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d2c0; }
+
+  .projGallery {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0; }
+    to {
+      top: 0;
+      opacity: 1; } }
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0; }
+    to {
+      top: 0;
+      opacity: 1; } }
+  .projDesc {
+    width: 50%; }
+
+  .lb-content {
+    position: relative;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s; } }
 
 /*# sourceMappingURL=main.css.map */
