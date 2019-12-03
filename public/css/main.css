@@ -202,6 +202,7 @@ nav {
 .aboutMe {
   background: url(/images/About-Bg.png) no-repeat;
   padding-top: 50px;
+  margin-top: 100px;
   height: 100%; }
 
 hr {
@@ -301,12 +302,12 @@ hr {
   margin-bottom: 50px; }
 
 footer {
-  text-align: center;
+  position: relative;
   background-color: #8E391E;
   font-size: .7rem !important;
   text-align: center;
+  align-items: center;
   padding-top: 20px;
-  margin: 0;
   padding-left: 0px; }
 
 .f-links {
@@ -323,16 +324,26 @@ footer {
   text-decoration: none;
   color: #fff; }
 
+.f-links a:hover {
+  background: linear-gradient(180deg, rgba(233, 149, 117, 0) 50%, #DF9575 60%); }
+
 .f-nav img {
-  width: 50%; }
+  width: 35%;
+  margin-bottom: 30px; }
 
 .copyright {
+  color: #fff;
+  text-align: center;
   background-color: #792F18;
-  height: 6vh;
-  width: 100vw;
-  bottom: 0;
-  padding: 5px;
-  left: -20px; }
+  height: 10vh;
+  padding-top: 30px; }
+
+.contact a {
+  color: #D98C43; }
+
+.contact a:hover {
+  color: #8E391E;
+  text-decoration: none; }
 
 * {
   margin: 0 auto;
@@ -348,7 +359,8 @@ html, body {
   font-family: 'Manrope', sans-serif;
   height: 100%;
   width: 100vw;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
 
 nav {
   display: flex;
@@ -498,7 +510,7 @@ button {
     width: 100vw; }
 
   .wHeader {
-    width: 40%; }
+    width: 50%; }
 
   .divider {
     width: 20%;
@@ -556,7 +568,11 @@ button {
     line-height: 10px; }
 
   .lb-content {
-    overflow-y: scroll; } }
+    overflow-y: scroll; }
+
+  .copyright {
+    height: 8vh;
+    padding-top: 30px; } }
 .burger-expand {
   transform: translateX(5%); }
 
@@ -724,7 +740,8 @@ button {
     margin-top: 60px; }
 
   .edu {
-    width: 70%; }
+    width: 70%;
+    margin-top: 70px; }
 
   .skills-header {
     width: 22%; }
@@ -735,13 +752,45 @@ button {
   .skills-txt h1 {
     font-size: 1.4rem !important; }
 
+  .top {
+    margin-bottom: 30px; }
+
+  .contact {
+    margin-top: 30px; }
+
   footer {
     margin-top: 50px;
     padding-top: 30px; }
 
   .f-nav img {
     width: 20%;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .f-links {
+    width: 50%; } }
+@media (min-width: 980px) {
+  .splash-txt {
+    line-height: 10px; }
+
+  .abt-header {
+    width: 30%;
+    margin-bottom: 30px; }
+
+  .abt-img {
+    width: 12%;
+    float: left;
+    margin-right: 10px; }
+
+  .flex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .interests {
+    float: left; }
+
+  .code {
+    float: left; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }
@@ -789,18 +838,20 @@ button {
     margin-right: 130px;
     margin-top: 160px; }
 
+  .splash-txt {
+    line-height: 10px; }
+
   .type-cursor {
     font-size: 1.5rem; }
 
   .splash h1 {
     margin-top: 400px;
-    font-size: 4rem !important;
+    font-size: 3rem !important;
     margin-left: 30px;
     margin-bottom: 10px; }
 
   .splash p {
-    font-size: 1.5rem;
-    line-height: 20px;
+    font-size: 1rem;
     margin-left: 30px; }
 
   .burger-expand {
@@ -922,7 +973,55 @@ button {
     right: 40%; }
 
   #p1 {
-    width: 400px; } }
+    width: 400px; }
+
+  .abt-header {
+    width: 20%;
+    margin-bottom: 30px; }
+
+  .abt-txt {
+    height: 60%; }
+
+  .abt-txt h1 {
+    padding-top: 40px; }
+
+  .abt-txt p {
+    padding-top: 40px; }
+
+  .abt-img {
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px; }
+
+  .edu img {
+    width: 30%; }
+
+  .skills-txt img {
+    margin-bottom: 30px; }
+
+  .flex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .interests {
+    float: left; }
+
+  .code {
+    float: left; }
+
+  .back-top {
+    margin-bottom: 40px; }
+
+  .contact {
+    margin-top: 40px; }
+
+  .f-nav img {
+    width: 10%; }
+
+  .copyright {
+    height: 10vh; } }
 @media (min-width: 1920px) {
   body {
     overflow-x: hidden; }
@@ -1028,6 +1127,15 @@ button {
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s; } }
+    animation-duration: 0.4s; }
+
+  .abt-header {
+    width: 40%;
+    margin-bottom: 30px; }
+
+  .abt-img {
+    width: 30%;
+    float: left;
+    margin-right: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

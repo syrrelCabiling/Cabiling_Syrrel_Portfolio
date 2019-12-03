@@ -1,10 +1,10 @@
 footer {
-    text-align: center;
+    position: relative;
     background-color: #8E391E;
     font-size: .7rem !important;
     text-align: center;
+    align-items: center;
     padding-top: 20px;
-    margin: 0;
     padding-left: 0px;
 }
 
@@ -25,15 +25,29 @@ footer {
     color: #fff;
 }
 
+.f-links a:hover {
+    background: linear-gradient(180deg,  rgba(233,149,117,0) 50%, #DF9575 60%);
+}
+
 .f-nav img {
-    width: 50%;
+    width: 35%;
+    margin-bottom: 30px;
 }
 
 .copyright {
+    color: #fff;
+    text-align: center;
     background-color: #792F18;
-    height: 6vh;
-    width: 100vw;
-    bottom: 0;
-    padding: 5px;
-    left: -20px;
+    height: 10vh;
+    padding-top: 30px;
+}
+
+.contact a {
+    color: #D98C43;
+ 
+}
+
+.contact a:hover {
+    color: #8E391E;
+    text-decoration: none;
 }

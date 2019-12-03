@@ -17,4 +17,4 @@ const hideExpand = () => {
 
 }
 
-hideExpand(); //whaaaaaat
+hideExpand(); //sayyy whaaaaaat
