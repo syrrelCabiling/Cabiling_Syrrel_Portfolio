@@ -23,31 +23,38 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <header>
+    <div class="container-fluid clearfix" id="home">
         <div class="row"> 
-            <nav class="col-lg-12 col-md-12 col-sm-12" id="navbar">
+            <nav class="col-lg-12 col-md-12 col-sm-12"  id="navbar">
               <img src="images/logo/LOGO2.svg" class="main-logo" alt="My Logo">
                 <h1 class="d-none">Navigation</h1>
                 <ul class="navlinks">
                     <li> 
-                        <a href="/">WORK</a>
+                        <a href="/">HOME</a>
+                    </li>
+                    <li> 
+                        <a href="/#work">WORK</a>
                     </li>
                     <li>
-                        <a href="#">ABOUT</a>
+                        <a href="/#about">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#">CONTACT</a>
+                        <a href="/contact.hbs">CONTACT</a>
                     </li>
                 </ul>
                    <ul class="navlinks2">
                     <li> 
-                        <a href="/">WORK</a>
+                        <a href="/">HOME</a>
+                    </li>
+                    <li> 
+                        <a href="/#work">WORK</a>
                     </li>
                     <li>
-                        <a href="#">ABOUT</a>
+                        <a href="/#about">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#">CONTACT</a>
+                        <a href="/contact.hbs">CONTACT</a>
                     </li>
                 </ul>
                 <div class="burger-menu d-sm-block d-lg-none d-xl-none">
@@ -58,14 +65,49 @@
             </nav>
         </div>
     </div>
-    
-    <!-- from splash to beyond -->
-    <div>
+</header>
 
+<div class="jumbotron-fluid">
+    <h1 class="d-none">Splash</h1>
+    <div class="row splash">
+        <div class="col-sm-12 col-lg-12 col-md-12">
+            
+            
     </div>
+</div>
+</div>
+
+
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="f-nav">
+                <img src="images/logo/white-Logo.svg" alt="Footer Logo">
+                <ul class="f-links">
+                    <li> 
+                        <a href="/">HOME</a>
+                    </li>
+                    <li> 
+                        <a href="/#work">WORK</a>
+                    </li>
+                    <li>
+                        <a href="/#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="/contact.hbs">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <p>Designed and coded with  &#128150; by yours truly</p>
+        </div>
+</footer>
+    
 
 
 <script type="module" src="js/main.js"></script>
+<!--<script type="module" src="js/lightbox.js"></script>-->
 <script type="module" src="js/burger-menu.js"></script>
 <script type="module" src="js/navOnScroll.js"></script>
 
