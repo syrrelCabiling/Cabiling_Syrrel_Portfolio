@@ -40,7 +40,7 @@ router.post('/mail', (req, res) => {
 
 
 router.get('/contact', function (req, res, next) {
-	res.render('contact', { title: 'Contact Me' });
+	res.render('contact', { layout: 'contact-layout', title: 'Contact Me' });
 });
 
 

@@ -357,6 +357,33 @@
     .f-links {
         width: 50%;
     }
+    .wave-splash {
+        position: relative;
+        float: left;
+        clear: both;
+    }
+    .wave-Header {
+        width: 50%;
+    }
+    .wave-Splash {
+        margin-bottom: 40px;
+        width: 80%;
+        transform: translate(-5%, 0);
+    }
+    .wave-About {
+        position: relative;
+        margin-bottom: 40px;
+        float: left;
+        clear: both;
+        overflow: hidden;
+    }
+    .wave-mock {
+        width: 70%;
+    }
+    footer {
+        margin-top: 0px;
+    }
+
 }
 
 @media (min-width: 980px) {

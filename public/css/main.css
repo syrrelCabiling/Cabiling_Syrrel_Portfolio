@@ -343,7 +343,7 @@ footer {
   color: #fff;
   text-align: center;
   background-color: #792F18;
-  height: 10vh;
+  height: 15vh;
   padding-top: 30px; }
 
 .contact a {
@@ -352,6 +352,52 @@ footer {
 .contact a:hover {
   color: #8E391E;
   text-decoration: none; }
+
+.wave-splash {
+  height: 100vh;
+  background: url("/images/p-img/beach.png");
+  background-size: cover;
+  background-position: top 0% right 0% bottom 60%;
+  position: relative;
+  padding: 25px;
+  text-align: center; }
+
+.wave-Header {
+  width: 70%;
+  left: 50%; }
+
+.about {
+  position: relative;
+  display: flex; }
+
+.wave-Splash {
+  width: 120%;
+  transform: translate(-10%, 0); }
+
+.wave-About {
+  margin-bottom: 40px; }
+
+.wave-About h4 {
+  margin-top: 40px;
+  font-size: 1.2rem; }
+
+.wave-About li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10px; }
+
+.wave-bottom-splash {
+  height: 150vh;
+  background: url("/images/p-img/beach2.png");
+  background-size: cover;
+  background-position: top 0% right 50% bottom 60%;
+  position: relative;
+  padding: 25px;
+  text-align: center; }
+
+.wave-mock {
+  transform: translate(-5%, 60%);
+  width: 110%; }
 
 * {
   margin: 0 auto;
@@ -784,7 +830,33 @@ button {
     margin-bottom: 30px; }
 
   .f-links {
-    width: 50%; } }
+    width: 50%; }
+
+  .wave-splash {
+    position: relative;
+    float: left;
+    clear: both; }
+
+  .wave-Header {
+    width: 50%; }
+
+  .wave-Splash {
+    margin-bottom: 40px;
+    width: 80%;
+    transform: translate(-5%, 0); }
+
+  .wave-About {
+    position: relative;
+    margin-bottom: 40px;
+    float: left;
+    clear: both;
+    overflow: hidden; }
+
+  .wave-mock {
+    width: 70%; }
+
+  footer {
+    margin-top: 0px; } }
 @media (min-width: 980px) {
   .splash-txt {
     line-height: 10px; }
