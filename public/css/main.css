@@ -226,9 +226,9 @@ hr {
   margin-bottom: 50px;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 4px 10px 20px -6px #777;
+  -moz-box-shadow: 4px 10px 20px -6px #777;
+  box-shadow: 4px 10px 20px -6px #777;
   font-size: .8rem;
   line-height: 25px; }
 
@@ -254,9 +254,9 @@ hr {
   margin-bottom: 50px;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 4px 10px 20px -6px #777;
+  -moz-box-shadow: 4px 10px 20px -6px #777;
+  box-shadow: 4px 10px 20px -6px #777;
   font-size: .8rem;
   line-height: 25px; }
 
@@ -282,9 +282,9 @@ hr {
   margin-bottom: 50px;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 4px 10px 20px -6px #777;
+  -moz-box-shadow: 4px 10px 20px -6px #777;
+  box-shadow: 4px 10px 20px -6px #777;
   font-size: .8rem;
   line-height: 25px; }
 
@@ -355,9 +355,9 @@ footer {
 
 .form-cont {
   background-color: #fff;
-  box-shadow: 3px 3px 3px 3px #b8b8b8;
-  -moz-box-shadow: 3px 3px 3px 3px #b8b8b8;
-  -webkit-box-shadow: 3px 3px 3px 3px #b8b8b8;
+  -webkit-box-shadow: 4px 10px 20px -6px #777;
+  -moz-box-shadow: 4px 10px 20px -6px #777;
+  box-shadow: 4px 10px 20px -6px #777;
   transform: translateY(20%);
   padding: 10px; }
 
@@ -366,6 +366,7 @@ footer {
 
 .cont-header {
   width: 90%;
+  margin-top: 10px;
   margin-bottom: 30px;
   transform: translateX(5%); }
 
@@ -659,7 +660,14 @@ button {
 
   .copyright {
     height: 8vh;
-    padding-top: 30px; } }
+    padding-top: 30px; }
+
+  .form-cont {
+    transform: translateY(10%);
+    height: 80%; }
+
+  textarea {
+    width: 100%; } }
 .burger-expand {
   transform: translateX(5%); }
 
@@ -889,7 +897,10 @@ button {
     width: 70%; }
 
   footer {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  .form-cont {
+    transform: translateY(10%); } }
 @media (min-width: 980px) {
   .splash-txt {
     line-height: 10px; }
