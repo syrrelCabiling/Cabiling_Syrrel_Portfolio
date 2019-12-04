@@ -18,12 +18,9 @@ const myPortfolio = (() => {
             console.log(work);
 
             targetDiv.innerHTML = work;
-            targetImg.src = piece.Preview1,
-                            piece.Preview2;
-                            // piece.Preview3,
-                            // piece.Thumbnail1,
-                            // piece.Thumbnail2,
-                            // piece.Thumbnail3;
+            targetImg.src = piece.OtherImg;
+
+
 
             lightbox.classList.add('show-lb');
 

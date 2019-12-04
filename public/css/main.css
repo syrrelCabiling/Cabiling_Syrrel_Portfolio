@@ -128,22 +128,16 @@ nav {
   position: fixed;
   top: 0px;
   z-index: 5;
-  overflow: visible;
+  overflow: scroll;
   border-radius: 5px;
   align-items: center; }
 
 .lightbox img {
-  max-width: 250px; }
+  width: 70%; }
 
-.projDesc {
-  width: 100vw;
-  height: 50vh;
-  top: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #e2d2c0; }
+.lightbox object {
+  opacity: 1;
+  z-index: 5; }
 
 .lb-content {
   position: relative;
@@ -176,9 +170,6 @@ nav {
   font-weight: bold;
   z-index: 5; }
 
-.close:hover {
-  color: darkgray; }
-
 .projGallery {
   width: 100vw;
   flex-direction: column;
@@ -199,6 +190,23 @@ nav {
   to {
     top: 0;
     opacity: 1; } }
+.projDesc {
+  margin-top: 20px;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d2c0;
+  overflow: scroll; }
+
+.otherImg {
+  margin-bottom: 20px; }
+
+.btn {
+  margin-bottom: 30px; }
+
 .aboutMe {
   background: url(/images/About-Bg.png) no-repeat;
   padding-top: 50px;
@@ -636,6 +644,13 @@ button {
   #p1 {
     width: 450px; }
 
+  .lightbox img {
+    width: 65%; }
+
+  .lightbox object {
+    opacity: 1;
+    z-index: 5; }
+
   .close {
     right: 24px;
     top: 10px;
@@ -652,11 +667,13 @@ button {
 
   .projDesc {
     width: 50%;
+    height: 40%;
+    transform: translate(0, 25%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #e2d2c0; }
+    position: relative; }
 
   .projGallery {
     width: 50%;
@@ -772,6 +789,9 @@ button {
   .splash-txt {
     line-height: 10px; }
 
+  .abt-txt {
+    height: 50%; }
+
   .abt-header {
     width: 30%;
     margin-bottom: 30px; }
@@ -790,7 +810,10 @@ button {
     float: left; }
 
   .code {
-    float: left; } }
+    float: left; }
+
+  .projDesc {
+    height: 10%; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }
@@ -911,6 +934,7 @@ button {
 
   .projDesc {
     width: 50%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
