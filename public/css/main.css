@@ -353,6 +353,39 @@ footer {
   color: #8E391E;
   text-decoration: none; }
 
+.form-cont {
+  background-color: #fff;
+  box-shadow: 3px 3px 3px 3px #b8b8b8;
+  -moz-box-shadow: 3px 3px 3px 3px #b8b8b8;
+  -webkit-box-shadow: 3px 3px 3px 3px #b8b8b8;
+  transform: translateY(20%);
+  padding: 10px; }
+
+.form-cont p {
+  font-size: 1rem; }
+
+.cont-header {
+  width: 90%;
+  margin-bottom: 30px;
+  transform: translateX(5%); }
+
+form {
+  margin-top: 30px; }
+
+input, textarea {
+  border: 1px solid #707070;
+  padding: 2px;
+  margin-bottom: 15px; }
+
+.input-length {
+  width: 100%; }
+
+.submit-button {
+  width: 40%;
+  background-color: #ECE1C8;
+  transform: translateX(70%);
+  border: none; }
+
 .wave-splash {
   height: 100vh;
   background: url("/images/p-img/beach.png");
@@ -885,7 +918,47 @@ button {
     float: left; }
 
   .projDesc {
-    height: 10%; } }
+    height: 10%; }
+
+  .wave-splash {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    float: left;
+    clear: both;
+    margin-bottom: 50px; }
+
+  .wave-Header {
+    width: 25%;
+    margin-top: 30px;
+    transform: translate(20%, 50%);
+    float: left; }
+
+  .wave-Splash {
+    margin-bottom: 40px;
+    width: 65%;
+    transform: translate(10%, -10%); }
+
+  .wave-About {
+    position: relative;
+    margin-bottom: 40px;
+    float: left;
+    clear: both;
+    overflow: hidden; }
+
+  .wave-mock {
+    width: 40%;
+    transform: translate(0, 0); }
+
+  .wave-bottom-splash {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 0% right 0% bottom 60%; }
+
+  footer {
+    margin-top: 0px;
+    position: relative; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }

@@ -1,15 +1,13 @@
-<h1>{{title}}</h1>
-<p>This is a contact form</p>
+<h1 class="d-none">{{title}}</h1>
+<p> I will do my best to get back to you in 24h.</p>
 
 <form action="">
-    <label for="usermail">Please enter your email address:</label>
-    <input type="email" name="usermail" required>
 
-    <label for="name">Please enter your company name (optional)</label>
-    <input type="text" name="company">
+    <input type="text" name="company" placeholder="Name" class="input-length">
 
-    <label for="message">Please enter your message:</label>
-    <textarea name="message" id="user-message" cols="30" rows="10"></textarea>
+    <input type="email" name="usermail" required placeholder="Email" class="input-length">
 
-    <input type="submit" value="Send!" class="submit-button">
+    <textarea name="message" id="user-message" cols="30" rows="10" placeholder="Message"></textarea>
+
+    <input type="submit" value="SUBMIT" class="submit-button">
 </form>

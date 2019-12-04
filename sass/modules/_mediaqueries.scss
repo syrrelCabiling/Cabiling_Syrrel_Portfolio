@@ -417,6 +417,47 @@
     .projDesc {
         height: 10%;
     }
+    .wave-splash {
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        float: left;
+        clear: both;
+        margin-bottom: 50px;
+    }
+    .wave-Header {
+        width: 25%;
+        margin-top: 30px;
+        transform: translate(20%, 50%);
+        float: left;
+    }
+    .wave-Splash {
+        margin-bottom: 40px;
+        width: 65%;
+        transform: translate(10%, -10%);
+    }
+    .wave-About {
+        position: relative;
+        margin-bottom: 40px;
+        float: left;
+        clear: both;
+        overflow: hidden;
+    }
+    .wave-mock {
+        width: 40%;
+        transform: translate(0, 0);
+
+    }
+    .wave-bottom-splash {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top 0% right 0% bottom 60%;
+    }
+    footer {
+        margin-top: 0px;
+        position: relative;
+    }
     
 }
 

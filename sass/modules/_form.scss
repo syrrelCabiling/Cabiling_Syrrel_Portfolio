@@ -1,0 +1,41 @@
+.form-cont {
+    background-color: #fff;
+    box-shadow:         3px 3px 3px 3px rgb(184, 184, 184);
+    -moz-box-shadow:    3px 3px 3px 3px rgb(184, 184, 184);
+    -webkit-box-shadow: 3px 3px 3px 3px rgb(184, 184, 184);
+   transform: translateY(20%);
+   padding: 10px;
+
+}
+
+.form-cont p{
+    font-size: 1rem;
+
+}
+
+.cont-header {
+    width: 90%;
+    margin-bottom: 30px;
+    transform: translateX(5%);
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, textarea {
+    border : 1px solid #707070;
+    padding : 2px;  
+    margin-bottom: 15px;
+}
+
+.input-length {
+    width: 100%;
+}
+
+.submit-button {
+    width: 40%;
+    background-color: #ECE1C8;
+    transform: translateX(70%);
+    border: none;
+}

@@ -1,35 +1,26 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484 75.33">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120.61">
   <defs>
     <style>
       .cls-1 {
-        fill: #df9575;
+        fill: #d98c43;
       }
 
       .cls-2 {
-        font-size: 56px;
+        font-size: 91.87px;
         font-family: Manrope-Bold, Manrope;
         font-weight: 700;
-        letter-spacing: 0.08em;
       }
 
       .cls-3 {
-        letter-spacing: 0.06em;
+        letter-spacing: -0.03em;
       }
 
       .cls-4 {
-        letter-spacing: 0.08em;
-      }
-
-      .cls-5 {
-        letter-spacing: 0.05em;
-      }
-
-      .cls-6 {
-        letter-spacing: 0.08em;
+        letter-spacing: -0.03em;
       }
     </style>
   </defs>
-  <title>Contact-Header</title>
-  <rect class="cls-1" y="22.33" width="484" height="53"/>
-  <text class="cls-2" transform="translate(13.67 49)">CON<tspan class="cls-3" x="146.91" y="0">TA</tspan><tspan class="cls-4" x="227.21" y="0">C</tspan><tspan class="cls-5" x="276.08" y="0">T</tspan><tspan class="cls-6" x="314.39" y="0" xml:space="preserve"> ME</tspan></text>
+  <title>contact-Header</title>
+  <rect class="cls-1" y="36.65" width="880" height="83.96"/>
+  <text class="cls-2" transform="translate(34.67 80.38)">LET’S CONN<tspan class="cls-3" x="569.85" y="0">E</tspan><tspan x="625.83" y="0">C</tspan><tspan class="cls-4" x="698.65" y="0">T</tspan></text>
 </svg>
