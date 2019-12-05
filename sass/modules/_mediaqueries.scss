@@ -146,14 +146,12 @@
         padding-top: 30px;
     }
     .form-cont {
-        transform: translateY(10%);
-        height: 80%;
+        transform: translateY(25%);
+        height: 70%;
     }
     textarea {
         width: 100%;
-    }
-    .form-cont {
-        transform: translateY(20%);
+        height: 200px;
     }
     .copyright {
         height: 10vh;
@@ -365,6 +363,7 @@
     footer {
         margin-top: 50px;
         padding-top: 30px;
+        clear: both;
     }
     .copyright {
         height: 10vh;
@@ -399,25 +398,32 @@
     .wave-mock {
         width: 70%;
     }
-    footer {
-        margin-top: 50px;
-    }
     .form-cont {
-        transform: translateY(30%);
-        width: 70%;
-        height: 60%;
-        position: inherit;
+        transform: translateY(40%);
+        height: 50%;
+        position: relative;
         clear: both;
         margin-bottom: 50px;
     }
+    form {
+        position: relative;
+    }
+    .form-cont p {
+        font-size: .8rem;
+    }
+    .form-cont textarea {
+        height: 100px;
+    }
     .cont-header {
-        width: 90%;
+        width: 30%;
     }
     form {
         margin-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
-
+    }
+    .submit-button {
+        width: 100px;
     }
 
 }
@@ -494,11 +500,11 @@
         display: block;
         position: relative;
         margin-top: 50px;
-        height: 100%;
+        height: 50%;
         padding: 30px;
     }
     .cont-header {
-        width: 40%;
+        width: 50%;
     }
     .submit-button {
         height: 30%;
@@ -608,6 +614,12 @@
     }
     .copyright {
         height: 15vh;
+    }
+    .form-cont {
+        width: 60%;
+    }
+    .cont-header {
+        width: 35%;
     }
 }
 
@@ -856,8 +868,9 @@
         width: 10%;
     }
     .copyright {
-        height: 15vh;
+        height: 10vh;
     }
+   
   
 }
 
@@ -903,7 +916,6 @@
         margin-top: 300px;
     }
     .projLink { 
-
         border: 2px solid #fff;
         outline: 5px solid #05322F;
         background: #05322F;

@@ -359,8 +359,9 @@ footer {
   -webkit-box-shadow: 4px 10px 20px -6px #777;
   -moz-box-shadow: 4px 10px 20px -6px #777;
   box-shadow: 4px 10px 20px -6px #777;
-  transform: translateY(20%);
-  padding: 10px; }
+  transform: translateY(30%);
+  padding: 10px;
+  height: 80%; }
 
 .form-cont p {
   font-size: 1rem; }
@@ -368,8 +369,7 @@ footer {
 .cont-header {
   width: 90%;
   margin-top: 10px;
-  margin-bottom: 30px;
-  transform: translateX(5%); }
+  margin-bottom: 30px; }
 
 form {
   margin-top: 30px; }
@@ -388,7 +388,6 @@ textarea {
 .submit-button {
   width: 40%;
   background-color: #ECE1C8;
-  transform: translateX(70%);
   border: none; }
 
 .wave-splash {
@@ -670,14 +669,12 @@ button {
     padding-top: 30px; }
 
   .form-cont {
-    transform: translateY(10%);
-    height: 80%; }
+    transform: translateY(25%);
+    height: 70%; }
 
   textarea {
-    width: 100%; }
-
-  .form-cont {
-    transform: translateY(20%); }
+    width: 100%;
+    height: 200px; }
 
   .copyright {
     height: 10vh; } }
@@ -878,7 +875,8 @@ button {
 
   footer {
     margin-top: 50px;
-    padding-top: 30px; }
+    padding-top: 30px;
+    clear: both; }
 
   .copyright {
     height: 10vh; }
@@ -913,24 +911,32 @@ button {
   .wave-mock {
     width: 70%; }
 
-  footer {
-    margin-top: 50px; }
-
   .form-cont {
-    transform: translateY(30%);
-    width: 70%;
-    height: 60%;
-    position: inherit;
+    transform: translateY(40%);
+    height: 50%;
+    position: relative;
     clear: both;
     margin-bottom: 50px; }
 
+  form {
+    position: relative; }
+
+  .form-cont p {
+    font-size: .8rem; }
+
+  .form-cont textarea {
+    height: 100px; }
+
   .cont-header {
-    width: 90%; }
+    width: 30%; }
 
   form {
     margin-top: 30px;
     padding-left: 20px;
-    padding-right: 20px; } }
+    padding-right: 20px; }
+
+  .submit-button {
+    width: 100px; } }
 @media (min-width: 980px) {
   .splash-txt {
     line-height: 10px; }
@@ -1001,11 +1007,11 @@ button {
     display: block;
     position: relative;
     margin-top: 50px;
-    height: 100%;
+    height: 50%;
     padding: 30px; }
 
   .cont-header {
-    width: 40%; }
+    width: 50%; }
 
   .submit-button {
     height: 30%; }
@@ -1103,7 +1109,13 @@ button {
     width: 400px; }
 
   .copyright {
-    height: 15vh; } }
+    height: 15vh; }
+
+  .form-cont {
+    width: 60%; }
+
+  .cont-header {
+    width: 35%; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }
@@ -1335,7 +1347,7 @@ button {
     width: 10%; }
 
   .copyright {
-    height: 15vh; } }
+    height: 10vh; } }
 @media (min-width: 1920px) {
   body {
     overflow-x: hidden; }

@@ -1,11 +1,13 @@
+
+
 .form-cont {
     background-color: #fff;
     -webkit-box-shadow: 4px 10px 20px -6px #777;
 	-moz-box-shadow: 4px 10px 20px -6px #777;
 	box-shadow: 4px 10px 20px -6px #777;
-   transform: translateY(20%);
+   transform: translateY(30%);
    padding: 10px;
-
+    height: 80%;
 }
 
 .form-cont p{
@@ -17,7 +19,7 @@
     width: 90%;
     margin-top: 10px;
     margin-bottom: 30px;
-    transform: translateX(5%);
+
 }
 
 form {
@@ -41,6 +43,5 @@ textarea {
 .submit-button {
     width: 40%;
     background-color: #ECE1C8;
-    transform: translateX(70%);
     border: none;
 }
