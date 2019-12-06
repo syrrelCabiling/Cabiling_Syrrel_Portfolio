@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Contact Form</title>
 </head>
 <body>
 
-<section class="mb-4">
+<section class="container mb-4">
         <h1 class="h1-responsive font-weight-bold my-4">Let's Connect!</h1>
         <p class="w-responsive mx-auto mb-5">I will get back to you within 24h.</p>
 
@@ -21,33 +20,33 @@
 
     <div class="col-md-6">
     <div class="md-form mb-0">
-        <label for="name-field">Name:</label> <!-- for label is for the ID / or matches the input's ID - click the name and the type should blink-->
+        <label for="name-field" class="mr-4">Name:</label> <!-- for label is for the ID / or matches the input's ID - click the name and the type should blink-->
         <input id="name-field" name="name" type="text" placeholder="Name">
     </div>
     </div>
 
     <div class="col-md-6">
     <div class="md-form mb-0">
-        <label for="email-field">Email:</label>
+        <label for="email-field" class="mr-4">Email:</label>
         <input id="email-field" name="email" type="email" placeholder="Email">
     </div>
     </div>
 
     <div class="col-md-6">
     <div class="md-form mb-0">
-        <label for="subject-field">Subject:</label>
+        <label for="subject-field" class="mr-3">Subject:</label>
         <input id="subject-field" name="subject" type="text" placeholder="Subject">
     </div>
     </div>
 
     <div class="col-md-6">
     <div class="md-form mb-0">
-        <label for="text-field">Message:</label>
+        <label for="text-field" class="mr-2">Message:</label>
         <textarea name="message" id="text-field"></textarea>
     </div>
     </div>    
     
-        <button type="submit" class="btn btn-primary">Submit:</button>
+        <button type="submit" class="btn btn-primary">SUBMIT</button>
     </form>
     </div>
     </div>
