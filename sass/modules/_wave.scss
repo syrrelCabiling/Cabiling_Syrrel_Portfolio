@@ -39,16 +39,21 @@
 }
 
 .wave-bottom-splash {
-    height: 150vh;
+    height: 100vh;
     background: url('/images/p-img/beach2.png');
     background-size: cover;
     background-position: top 0% right 50% bottom 60%;
     position: relative;
     padding: 25px;
     text-align: center;
+    bottom: 0;
 }
 
 .wave-mock {
     transform: translate(-5%, 60%);
     width: 110%;
+}
+
+.wave-footer {
+    margin-top: 0px;
 }

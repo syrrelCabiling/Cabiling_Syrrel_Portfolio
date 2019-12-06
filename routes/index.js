@@ -13,6 +13,8 @@ const transporter = mailer.createTransport({
 		pass: auth.pass
 	}
 });
+
+
 router.post('/mail', (req, res) => {
 	console.log('hit mail route');
 	console.log('body: ', req.body);

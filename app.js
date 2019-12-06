@@ -1,13 +1,16 @@
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
+var bodyParser = require('body-parser');
+
 
 // set the port
 const port = process.env.PORT || 3000;
 
 const app = express();
 
-
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static(path.join(__dirname, '/public')));
 app.set('view engine', 'hbs');
@@ -21,7 +24,7 @@ app.use('/contact', require('./routes/contact'));
 app.use((req, res, next) => {
     var err = new Error('Not Found');
     err.status = 404;
-    err.customMessage = "Someone's a  bit lost. Just follow the light!"
+    err.customMessage = "Hey! This page does not exist"
     next(err); // means fall thorugh to the next route
 })
 

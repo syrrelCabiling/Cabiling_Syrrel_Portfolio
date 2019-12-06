@@ -2,7 +2,8 @@
 (() => {
     console.log('mail is firing!!');
     
-        const form = document.querySelector('form'), submit = form.querySelector('.submit-button');
+        const form = document.querySelector('form'), 
+        submit = form.querySelector('.submit-button');
     
         function handleMail(event) {
             event.preventDefault();

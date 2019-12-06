@@ -80,6 +80,35 @@
     .copyright {
         height: 10vh;
     }
+    .error-section {
+        width: 90%;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+        height: 60vh;
+        display: flex;
+        transform: translate(0%, 40%);
+    }
+    
+    .error-section a {
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: .8rem;
+    }
+    
+    .error-section a:hover {
+        background-color: #DF9575;
+    }
+    
+    .giphy-embed {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .error {
+        margin-top: 15px;
+        padding: 5px;
+    }
 }
 
 .burger-expand {
@@ -156,6 +185,27 @@
     .copyright {
         height: 10vh;
     }
+    .wave-Header {
+        margin-top: 20px;
+        width: 40%;
+        left: 50%;
+    }
+    .wave-Splash {
+        width: 100%;
+        transform: translate(0%, -10%);
+    }
+    .wave-bottom-splash {
+        height: 150vh;
+        position: relative;
+        padding: 25px;
+        text-align: center;
+        bottom: 0;
+    }
+    .wave-mock {
+        transform: translate(-5%, 40%);
+        width: 100%;
+    }
+    
 }
 
 
@@ -379,14 +429,15 @@
         position: relative;
         float: left;
         clear: both;
+        height: 150vh;
     }
     .wave-Header {
-        width: 50%;
+        width: 40%;
     }
     .wave-Splash {
         margin-bottom: 40px;
         width: 80%;
-        transform: translate(-5%, 0);
+        transform: translate(-5%, 0%);
     }
     .wave-About {
         position: relative;
@@ -396,7 +447,16 @@
         overflow: hidden;
     }
     .wave-mock {
-        width: 70%;
+        width: 60%;
+        transform: translateY(10%);
+
+    }
+    .wave-bottom-splash {
+        height: 150vh;
+        position: relative;
+        padding: 25px;
+        text-align: center;
+        bottom: 0;
     }
     .form-cont {
         transform: translateY(40%);
@@ -404,9 +464,6 @@
         position: relative;
         clear: both;
         margin-bottom: 50px;
-    }
-    form {
-        position: relative;
     }
     .form-cont p {
         font-size: .8rem;
@@ -421,6 +478,7 @@
         margin-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
+        position: relative;
     }
     .submit-button {
         width: 100px;
@@ -461,9 +519,8 @@
     }
     .wave-splash {
         background-size: cover;
-        height: 100vh;
+        height: 120vh;
         position: relative;
-        float: left;
         clear: both;
         margin-bottom: 50px;
     }
@@ -870,7 +927,10 @@
     .copyright {
         height: 10vh;
     }
-   
+    .error-section {
+        width: 50%;
+        
+    }
   
 }
 

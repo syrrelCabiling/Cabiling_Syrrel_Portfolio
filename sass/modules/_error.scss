@@ -1,0 +1,29 @@
+.error-section {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    transform: translate(0%, 40%);
+}
+
+.error-section a {
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.error-section a:hover {
+    background-color: #DF9575;
+}
+
+.giphy-embed {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.error {
+    margin-top: 15px;
+    padding: 5px;
+}
