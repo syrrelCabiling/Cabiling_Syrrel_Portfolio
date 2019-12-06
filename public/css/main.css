@@ -440,6 +440,15 @@ textarea {
 .wave-footer {
   margin-top: 0px; }
 
+.thermo-splash {
+  height: 90vh;
+  transform: translateY(-30%);
+  background: url("/images/p-img/Thermo-Splash-Bg.jpg");
+  background-size: cover; }
+
+.thermo-footer {
+  flex-shrink: 0; }
+
 .error-section {
   width: 50%;
   background-color: white;
@@ -475,6 +484,9 @@ textarea {
 @font-face {
   font-family: 'Made Saonara', serif;
   src: url("fonts/made-saonara/MADE SAONARA PERSONAL USE.otf") format(otf); }
+html {
+  min-height: 100%; }
+
 html, body {
   font-family: 'Manrope', sans-serif;
   height: 100%;
