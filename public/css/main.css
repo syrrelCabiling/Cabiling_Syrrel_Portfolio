@@ -589,6 +589,28 @@ textarea {
   position: relative;
   margin-top: 200px; }
 
+.cricket-splash {
+  background: url("/images/p-img/cricket-bg.png");
+  background-size: cover;
+  height: 100vh;
+  margin-top: -30%;
+  text-align: center;
+  align-items: center;
+  display: flex; }
+
+.cricket-splash-img img {
+  width: 80%;
+  margin-bottom: 30px; }
+
+.cricket-splash-img h2 {
+  font-size: 2rem; }
+
+.main-cont p {
+  margin-top: 30px; }
+
+.main-cont img {
+  width: 100%; }
+
 .error-section {
   width: 50%;
   background-color: white;
@@ -1359,7 +1381,28 @@ button {
 
   .biotec-footer {
     position: relative;
-    overflow: hidden; } }
+    overflow: hidden; }
+
+  .cricket-splash {
+    background: url("/images/p-img/cricket-bg.png");
+    background-size: cover;
+    height: 100vh;
+    margin-top: -10%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    transform: scale(1.2); }
+
+  .cricket-splash-img img {
+    width: 40%;
+    margin-bottom: 30px; }
+
+  .main-cont p {
+    margin-top: 50px;
+    font-size: .8rem; }
+
+  .main-cont img {
+    width: 100%; } }
 @media (min-width: 980px) {
   .splash-txt {
     line-height: 10px; }
@@ -1576,7 +1619,28 @@ button {
   .biotec-footer {
     position: relative;
     overflow: hidden;
-    margin-top: 400px; } }
+    margin-top: 400px; }
+
+  .cricket-splash {
+    background: url("/images/p-img/cricket-bg.png");
+    background-size: cover;
+    height: 100vh;
+    margin-top: -10%;
+    align-items: center;
+    margin-bottom: 50px; }
+
+  .cricket-splash-img img {
+    width: 30%;
+    float: right;
+    transform: translate(-30%, 10%); }
+
+  .cricket-splash-img h2 {
+    transform: translate(-10%, 150%);
+    font-size: 2.5rem; }
+
+  .main-cont p {
+    margin-top: 50px;
+    font-size: .8rem; } }
 @media (min-width: 1024px) {
   body {
     overflow-x: hidden; }
