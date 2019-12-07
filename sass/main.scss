@@ -7,6 +7,7 @@
 @import 'modules/_form';
 @import 'modules/_wave';
 @import 'modules/_thermo';
+@import 'modules/_biotec';
 @import 'modules/_error';
 
 
@@ -26,9 +27,9 @@
     font-family: 'Made Saonara', serif;
     src: url('fonts/made-saonara/MADE SAONARA PERSONAL USE.otf') format(otf);
 }
-html {
-    min-height: 100%;
-}
+
+
+
 html, body {
     font-family: 'Manrope', sans-serif;
     height: 100%;
@@ -110,7 +111,7 @@ nav a:hover {
 }
 
 .splash h1 {
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 2rem;
 }
 
