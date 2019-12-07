@@ -459,8 +459,8 @@
         bottom: 0;
     }
     .form-cont {
-        transform: translateY(40%);
-        height: 50%;
+        transform: translateY(30%);
+        height: 65%;
         position: relative;
         clear: both;
         margin-bottom: 50px;
@@ -482,6 +482,80 @@
     }
     .submit-button {
         width: 100px;
+    }
+    .model-cont{
+        position: absolute;
+        margin-top: 0px;
+        transform: translate(-18%, -80%);
+        clear: none;
+    }
+    .model {
+        width: 100%;
+    }
+    .splash-txt {
+        width: 55%;
+        float: right;
+        transform: translateY(-110%) !important;
+        font-size: 1rem;
+    }
+    .splash-txt p {
+        line-height: 25px;
+        font-size: .8rem;
+    }
+    .ui {
+        clear: both;
+    }
+    .ui-img {
+        width: 50%;
+        float: right;
+        
+    }
+    .ui-txt p {
+        font-size: .8rem;
+        width: 90%;
+        transform: translateY(30%);
+    }
+    .sketch-cont {
+        float: left;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+    .sketch-img {
+        width: 80%;
+    }
+    .logo-txt {
+        text-align: center;
+        width: 80%;
+    }
+    .logo-txt p {
+        font-size: .8rem;
+        transform: translateY(0%);
+    }
+    .final-logo {
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .sheet-cont {
+        margin-top: 50px;
+    }
+    .sheet-cont p {
+        font-size: 1rem;
+    }
+    .sheet-cont {
+        text-align: center;
+    }
+    .sell-sheet {
+        width: 70%;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 4px 10px 20px -6px #777;
+        -moz-box-shadow: 4px 10px 20px -6px #777;
+        box-shadow: 4px 10px 20px -6px #777;
+    }
+    .vr {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
 }
@@ -565,10 +639,82 @@
     }
     .submit-button {
         height: 30%;
+      
     }
     footer {
         margin-top: 50px;
         position: relative;
+    }
+    .model-cont{
+        position: absolute;
+        margin-top: 0px;
+        transform: translate(-18%, -80%);
+        clear: none;
+    }
+    .model {
+        width: 130%;
+    }
+    .splash-txt {
+        width: 50%;
+        float: right;
+        transform: translateY(-130%) !important;
+        font-size: 1rem;
+    }
+    .splash-txt p {
+        line-height: 25px;
+    }
+    .ui {
+        clear: both;
+    }
+    .ui-img {
+        width: 50%;
+        float: right;
+        
+    }
+    .ui-txt p {
+        font-size: 1rem;
+        margin-right: 20px;
+        transform: translateY(30%);
+    }
+    .sketch-cont {
+        float: left;
+        margin-top: 30px;
+
+    }
+    .sketch-img {
+        width: 80%;
+    }
+    .logo-txt {
+        float: right;
+        width: 50%;
+    }
+    .logo-txt p {
+        font-size: 1rem;
+        transform: translateY(80%);
+    }
+    .final-logo {
+        width: 60%;
+        margin-top: 140px;
+    }
+    .sheet-cont {
+        margin-top: 50px;
+    }
+    .sheet-cont p {
+        font-size: 1rem;
+    }
+    .sheet-cont {
+        text-align: center;
+    }
+    .sell-sheet {
+        width: 70%;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 4px 10px 20px -6px #777;
+        -moz-box-shadow: 4px 10px 20px -6px #777;
+        box-shadow: 4px 10px 20px -6px #777;
+    }
+    .vr {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
 }
@@ -674,9 +820,13 @@
     }
     .form-cont {
         width: 60%;
+        height: 55%;
     }
     .cont-header {
         width: 35%;
+    }
+    .submit-button {
+        margin-bottom: 20px;
     }
 }
 
@@ -930,6 +1080,16 @@
     .error-section {
         width: 50%;
     }
+    .splash-txt p {
+        font-size: 1rem;
+    }
+    .ui-txt p {
+        margin-left: 0px;
+    }
+    .logo-txt {
+        text-align: left;
+    }
+    
   
 }
 

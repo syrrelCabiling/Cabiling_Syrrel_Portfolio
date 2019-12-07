@@ -9,11 +9,11 @@ const myPortfolio = (() => {
             let targetDiv = document.querySelector('.lb-content'),
                 targetImg = lightbox.querySelector('img');
 
-                let work = `
+                let work = ` 
                     <h2>${piece.Title}</h2>
                    <p>${piece.Desc1}</p>
                    <p>${piece.Desc2}</p>
-                `;
+                `; //this is inside the lightbox and lb-content
 
             console.log(work);
 
