@@ -153,5 +153,19 @@ button{
     background: #D98C43;
 }
 
+.demoreel {
+    text-align: center;
+    display: flex;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    -webkit-box-shadow: 4px 10px 20px -6px #777;
+    -moz-box-shadow: 4px 10px 20px -6px #777;
+    box-shadow: 4px 10px 20px -6px #777;
+}
+
 
 @import 'modules/_mediaqueries';

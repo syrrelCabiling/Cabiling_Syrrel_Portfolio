@@ -14,7 +14,7 @@ Professional Portfolio
 ## MMED 3038
 - [x] All design work in open, properly labeled working files
 - [x] All web based designs must include a detailed high fidelity wireframe
-- []  (labels & Anecdotal information) for each screen that is created for the purposes
+- [x]  (labels & Anecdotal information) for each screen that is created for the purposes
         of the assignment.
 - [x] Standard minimum for display are; smartphone (portrait), tablet (portrait) and
         desktop (landscape).
@@ -34,7 +34,7 @@ Professional Portfolio
 
 ## MMED 3040
 - [x] Folder structure
-- [] PHP driven contact form
+- [x] PHP driven contact form
 - [x] Database driven content (all copy, imagery and video content)
 
 ## MMED 3039
@@ -47,6 +47,7 @@ Professional Portfolio
 - [x] AJAX with the Fetch API for dynamic page content
 - [x] Gulp for automation
 - [x] SASS / LESS for CSS preprocessing
+- [x] Typewriter tutorial (https://www.youtube.com/watch?v=fwekqnsQJTo&t=197s)
 
 
 ## Installation
