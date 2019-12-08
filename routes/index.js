@@ -46,11 +46,11 @@ router.get('/contact', function (req, res, next) {
 });
 
 
-connect.getConnection((err, connection) => {
-    if (err) { return console.log(error.message); }
-
 
 router.get('/', (req, res) => {
+
+    connect.getConnection((err, connect) => {
+		if (err) { return console.log(error.message); }
     // should really get the user data here and then fetch it thru, but let's try this asynchronously
     console.log('at the main route');
 
