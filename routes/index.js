@@ -91,4 +91,30 @@ router.get('/users/:id', (req,res) => {
     })
 }) // name id anything you want
 
+router.get('/moreinfo/:work', (req,res) => {
+    console.log('hit a dynamic route!');
+    console.log(req.params.id);
+
+        let query = `SELECT ExtPage FROM tbl_folio WHERE ID="${req.params.id}"`; // params will give you either 1, 2, or 3
+    
+       sql.query(query, (err, result) => {
+          if (err) { throw err; console.log(err); }
+    
+          console.log(result); // should see objects wrapped in an array
+
+
+            //turn our social porperty into an array - its just text in the db which isnt really anything we can work with.
+         //   result[0].social = result[0].social.split(",").map(function(item) {
+           //     item = item.trim(); // remove the etxra saces from each word
+
+           //     return item;
+       //     }); //chopping the words
+
+           // console.log('after split: ', result[0]);
+            // render the home view with dynamic data
+        res.json(result); //data is a generic key; send the db query back to the browser
+        
+    })
+})
+
 module.exports = router;
