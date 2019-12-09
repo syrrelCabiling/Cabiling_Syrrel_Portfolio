@@ -1417,7 +1417,8 @@ video {
     line-height: 10px; }
 
   .abt-txt {
-    height: 50%; }
+    height: 30%;
+    font-size: 1rem; }
 
   .abt-header {
     width: 30%;
@@ -1956,7 +1957,7 @@ video {
     margin-bottom: 30px; }
 
   .abt-txt {
-    height: 60%; }
+    height: 50%; }
 
   .abt-txt h1 {
     padding-top: 40px; }
