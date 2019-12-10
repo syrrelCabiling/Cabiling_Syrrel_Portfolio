@@ -1,6 +1,6 @@
 const mailTo = {
     service: 'gmail',
-    user: 'csyrrel@gmail.com',
+    user: 'cabilingsyrrel@gmail.com',
     pass: '@Hibernate08' 
 }
 
