@@ -19,7 +19,7 @@ const myPortfolio = (() => {
 
             targetDiv.innerHTML = work;
             targetImg.src = piece.OtherImg;
-
+            lightbox.querySelector('a').href = piece.ExtPage;
 
 
             lightbox.classList.add('show-lb');
