@@ -872,6 +872,9 @@
         width: 60%;
         margin-top: 140px;
     }
+    .thermo-splash-txt {
+        font-size: 1rem;
+    }
     .sheet-cont {
         margin-top: 50px;
     }
@@ -992,7 +995,7 @@
     }
     .main-cont p {
         margin-top: 50px;
-        font-size: .8rem;
+        font-size: 1rem;
     }
     
 }
@@ -1113,6 +1116,9 @@
     .thermo-splash-txt {
         width: 50%;
         line-height: 20px;
+    }
+    .thermo-splash-txt p {
+        font-size: 1rem;
     }
     
 }
@@ -1381,7 +1387,9 @@
         position: relative;
         margin-top: 500px;
     }
-    
+    .thermo-splash-txt p {
+        font-size: 1rem;
+    }
   
 }
 
