@@ -32,7 +32,15 @@
     font-size: 1.2rem;
 }
 
-.wave-About li {
+.mobile-ui {
+    float: left;
+}
+
+.mobile-ui img {
+    width: 100%;
+}
+
+.mobile-txt li {
     text-decoration: none;
     list-style-type: none;
     margin-bottom: 10px;
@@ -49,6 +57,17 @@
     bottom: 0;
 }
 
+.user-persona {
+    width: 70%;
+}
+
+.wave-About img {
+    margin-top: 30px;
+}
+
+.par-2 {
+    margin-top: 30px;
+}
 .wave-mock {
     transform: translate(-5%, 60%);
     width: 110%;

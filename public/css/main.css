@@ -418,7 +418,13 @@ textarea {
   margin-top: 40px;
   font-size: 1.2rem; }
 
-.wave-About li {
+.mobile-ui {
+  float: left; }
+
+.mobile-ui img {
+  width: 100%; }
+
+.mobile-txt li {
   text-decoration: none;
   list-style-type: none;
   margin-bottom: 10px; }
@@ -432,6 +438,15 @@ textarea {
   padding: 25px;
   text-align: center;
   bottom: 0; }
+
+.user-persona {
+  width: 70%; }
+
+.wave-About img {
+  margin-top: 30px; }
+
+.par-2 {
+  margin-top: 30px; }
 
 .wave-mock {
   transform: translate(-5%, 60%);
@@ -742,7 +757,7 @@ button {
   text-align: center;
   display: flex; }
 
-video {
+.demoreel video {
   display: block;
   margin: 0 auto;
   justify-content: center;
@@ -1650,12 +1665,12 @@ video {
     margin-bottom: 50px; }
 
   .cricket-splash-img img {
-    width: 30%;
+    width: 28%;
     float: right;
-    transform: translate(-30%, 10%); }
+    transform: translate(-70%, 10%); }
 
   .cricket-splash-img h2 {
-    transform: translate(-10%, 150%);
+    transform: translate(-5%, 270%);
     font-size: 2.5rem; }
 
   .main-cont p {
