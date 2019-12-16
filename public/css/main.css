@@ -440,7 +440,7 @@ textarea {
   bottom: 0; }
 
 .user-persona {
-  width: 70%; }
+  width: 100%; }
 
 .wave-About img {
   margin-top: 30px; }
@@ -449,11 +449,12 @@ textarea {
   margin-top: 30px; }
 
 .wave-mock {
-  transform: translate(-5%, 60%);
+  transform: translate(-5%, 35%);
   width: 110%; }
 
 .wave-footer {
-  margin-top: 0px; }
+  margin-top: 0px;
+  position: static; }
 
 .thermo-splash {
   height: 80vh;
@@ -1236,12 +1237,28 @@ button {
     width: 60%;
     transform: translateY(10%); }
 
+  .user-persona {
+    width: 65%; }
+
+  .mobile-ui img {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .mobile-txt {
+    float: left;
+    top: 25%; }
+
   .wave-bottom-splash {
     height: 150vh;
     position: relative;
     padding: 25px;
     text-align: center;
     bottom: 0; }
+
+  .wave-footer {
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0px; }
 
   .form-cont {
     transform: translateY(30%);
@@ -1489,6 +1506,9 @@ button {
     float: left;
     clear: both;
     overflow: hidden; }
+
+  .mobile-ui img {
+    width: 70%; }
 
   .wave-mock {
     width: 40%;
@@ -1787,7 +1807,23 @@ button {
     line-height: 20px; }
 
   .thermo-splash-txt p {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  .wave-About {
+    text-align: center; }
+
+  .wave-About h1, .wave-About p {
+    text-align: left; }
+
+  .user-persona {
+    width: 65%; }
+
+  .mobile-ui img {
+    width: 80%; }
+
+  .mobile-txt {
+    float: left;
+    top: 25%; } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }

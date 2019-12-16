@@ -58,7 +58,7 @@
 }
 
 .user-persona {
-    width: 70%;
+    width: 100%;
 }
 
 .wave-About img {
@@ -69,10 +69,11 @@
     margin-top: 30px;
 }
 .wave-mock {
-    transform: translate(-5%, 60%);
+    transform: translate(-5%, 35%);
     width: 110%;
 }
 
 .wave-footer {
     margin-top: 0px;
+    position: static;
 }

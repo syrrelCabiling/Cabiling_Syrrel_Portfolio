@@ -514,12 +514,28 @@
         transform: translateY(10%);
 
     }
+    .user-persona {
+        width: 65%;
+    }
+    .mobile-ui img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .mobile-txt {
+        float: left;
+        top: 25%;
+    }
     .wave-bottom-splash {
         height: 150vh;
         position: relative;
         padding: 25px;
         text-align: center;
         bottom: 0;
+    }
+    .wave-footer {
+        position: relative;
+        padding-left: 0px;
+        margin-bottom: 0px;
     }
     .form-cont {
         transform: translateY(30%);
@@ -792,6 +808,10 @@
         clear: both;
         overflow: hidden;
     }
+    .mobile-ui img {
+        width: 70%;
+    }
+
     .wave-mock {
         width: 40%;
         transform: translate(0, 0);
@@ -1120,7 +1140,22 @@
     .thermo-splash-txt p {
         font-size: 1rem;
     }
-    
+    .wave-About {
+        text-align: center;
+    }
+    .wave-About h1, .wave-About p {
+        text-align: left;
+    }
+    .user-persona {
+        width: 65%;
+    }
+    .mobile-ui img {
+        width: 80%;
+    }
+    .mobile-txt {
+        float: left;
+        top: 25%;
+    }
 }
 
 @media (min-width: 1200px){
