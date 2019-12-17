@@ -670,15 +670,14 @@
     }
     
     .merch-cont {
-        width: 50%;
+        width: 70%;
         text-align: center;
         float: left;
     }
     
-    
     .merch-cont img{
-        width: 100%;
-        transform: translateY(-70%);
+        width: 120%;
+        transform: translateY(-100%);
         float: left;
     }
     
@@ -689,7 +688,8 @@
     
     }
     .proj-desc p {
-        font-size: .8rem;
+        font-size: 1rem;
+        margin-top: 20px;
     }
     
     .biotec-section2 {
@@ -711,7 +711,40 @@
         width: 50%;
         margin-top: 25px;
     }
-    
+    .biotec-section3 {
+        text-align: center;
+        transform: translateY(60%);
+    }
+    .biotec-section3 img{
+        width: 48%;
+        float: left;
+        text-align: center;
+        
+    }
+    .mockup-img {
+        float: right;
+        margin-right: 100px;
+    }
+    .mockup-img1 {
+        float: left;
+        margin-right: 10px;
+        
+    }
+    .mockup-img2 {
+        float: left;
+        clear: right;
+    }
+    .sec3-txt {
+        clear: both;
+        text-align: left;
+    }
+    .sec2-txt p {
+        -moz-transform: scale(.7) skew(0deg, 0deg);
+        -webkit-transform: scale(.7) skew(0deg, 0deg);
+        -o-transform: scale(.7) skew(0deg, 0deg);
+        -ms-transform: scale(.7) skew(0deg, 0deg);
+        transform: scale(.7) skew(0deg, -2.5deg) translateY(150%);
+    }
     .biotec-footer {
         position: relative;
         overflow:hidden; 
@@ -987,7 +1020,13 @@
         width: 50%;
         margin-top: 25px;
     }
-    
+    .sec2-txt p {
+        -moz-transform: scale(.7) skew(0deg, 0deg);
+        -webkit-transform: scale(.7) skew(0deg, 0deg);
+        -o-transform: scale(.7) skew(0deg, 0deg);
+        -ms-transform: scale(.7) skew(0deg, 0deg);
+        transform: scale(.7) skew(0deg, -2.5deg) translateY(250%);
+    }
     .biotec-footer {
         position: relative;
         overflow:hidden;
