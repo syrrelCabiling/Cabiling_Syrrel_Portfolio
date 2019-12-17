@@ -1006,19 +1006,20 @@ button {
     height: 30%; }
 
   .biotec-section2 {
-    height: 100%;
+    height: 60vh;
     background-image: linear-gradient(to top right, #08393B, #fff);
     -moz-transform: scale(1.5) skew(0deg, -16deg);
     -webkit-transform: scale(1.5) skew(0deg, -16deg);
     -o-transform: scale(1.5) skew(0deg, -16deg);
     -ms-transform: scale(1.5) skew(0deg, -16deg);
     transform: scale(1.5) skew(0deg, -16deg);
-    text-align: center; }
+    text-align: center;
+    margin-top: 0px; }
 
   .biotec-section2 img {
     transform: skew(0deg, 16deg) !important;
     display: block;
-    width: 110%;
+    width: 80%;
     margin-top: 25px; }
 
   .biotec-footer {
