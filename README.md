@@ -24,11 +24,11 @@ Professional Portfolio
 
 ## MMED 1058
 - [x] Brand consistent demo reel of your work to date
-- [] A final video rendered out in web-ready formats (.mp4, .ogg, .webm)
+- [x] A final video rendered out in web-ready formats (.mp4, .ogg, .webm)
 - [x] Video size for final render will be 1280 pixels wide by 720 pixels high
 - [x] Create an interesting animated name intro to your reel, include 5 style frames in 1 PDF format
 - [x] Audio (stock audio or original score)
-- [] Inspiration folder
+- [x] Inspiration folder
 - [x] Examples showcasing your best 3D /design / dev / video work accompanied by
  appropriate copy explaining the work and you as a professional
 
