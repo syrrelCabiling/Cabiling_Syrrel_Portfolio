@@ -581,10 +581,10 @@ textarea {
   margin-bottom: 0px; }
 
 .proj-desc {
-  transform: translateY(-95%); }
+  transform: translateY(-85%); }
 
 .biotec-section2 {
-  height: 60vh;
+  height: 65vh;
   background-image: linear-gradient(to top right, #08393B, #fff);
   -moz-transform: scale(1.5) skew(0deg, -16deg);
   -webkit-transform: scale(1.5) skew(0deg, -16deg);
@@ -613,7 +613,7 @@ textarea {
   -webkit-transform: scale(0.7) skew(0deg, 0deg);
   -o-transform: scale(0.7) skew(0deg, 0deg);
   -ms-transform: scale(0.7) skew(0deg, 0deg);
-  transform: scale(0.7) skew(0deg, 0deg); }
+  transform: scale(0.7) skew(0deg, 0deg) translateY(-25%); }
 
 .biotec-section3 {
   margin-top: 50px;
@@ -627,7 +627,7 @@ textarea {
   flex-shrink: 0;
   clear: both;
   position: relative;
-  margin-top: 200px; }
+  margin-top: 400px; }
 
 .cricket-splash {
   background: url("/images/p-img/cricket-bg.png");
@@ -1448,12 +1448,16 @@ button {
 
   .biotec-section3 {
     text-align: center;
-    transform: translateY(60%); }
+    transform: translateY(30%); }
 
   .biotec-section3 img {
     width: 48%;
     float: left;
     text-align: center; }
+
+  .heart {
+    margin-top: 50px;
+    margin-right: 20px; }
 
   .mockup-img {
     float: right;
@@ -1476,7 +1480,7 @@ button {
     -webkit-transform: scale(0.7) skew(0deg, 0deg);
     -o-transform: scale(0.7) skew(0deg, 0deg);
     -ms-transform: scale(0.7) skew(0deg, 0deg);
-    transform: scale(0.7) skew(0deg, -2.5deg) translateY(150%); }
+    transform: scale(0.7) skew(0deg, -2.5deg) translateY(0%); }
 
   .biotec-footer {
     position: relative;
@@ -1734,7 +1738,7 @@ button {
     -webkit-transform: scale(0.7) skew(0deg, 0deg);
     -o-transform: scale(0.7) skew(0deg, 0deg);
     -ms-transform: scale(0.7) skew(0deg, 0deg);
-    transform: scale(0.7) skew(0deg, -2.5deg) translateY(250%); }
+    transform: scale(0.7) skew(0deg, -2.5deg) translateY(40%); }
 
   .biotec-footer {
     position: relative;
@@ -1888,7 +1892,14 @@ button {
 
   .mobile-txt {
     float: left;
-    top: 25%; } }
+    top: 25%; }
+
+  .sec2-txt p {
+    -moz-transform: scale(0.7) skew(0deg, 0deg);
+    -webkit-transform: scale(0.7) skew(0deg, 0deg);
+    -o-transform: scale(0.7) skew(0deg, 0deg);
+    -ms-transform: scale(0.7) skew(0deg, 0deg);
+    transform: scale(0.7) skew(0deg, -2.5deg) translateY(50%); } }
 @media (min-width: 1200px) {
   body {
     overflow-x: hidden; }
